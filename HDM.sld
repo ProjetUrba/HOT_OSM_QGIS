@@ -402,6 +402,7 @@ area[man_made=reservoir_covered]:closed {
 						<sld:Stroke>
 							<sld:CssParameter name="stroke">#3434ff</sld:CssParameter>    <!--CSS = color; -->
 							<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
+							<sld:CssParameter name="stroke-dasharray">4 2</CssParameter>  <!--CSS = dashes; -->
 						</sld:Stroke>
               		 </sld:PolygonSymbolizer>		
 +				</sld:Rule>
@@ -410,5 +411,5 @@ area[man_made=reservoir_covered]:closed {
 +	</sld:NamedLayer>
 
 <!-- Pas pris en compte : "small_area : true;" -->
-<!-- Pas pris en compte : "dashes: 4, 2;" -->
+
 
