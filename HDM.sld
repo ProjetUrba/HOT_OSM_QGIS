@@ -3,49 +3,103 @@
     xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
     xmlns="http://www.opengis.net/sld"
     xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:gml="http://www.opengis.net/gml"
     xmlns:xlink="http://www.#####/xlink"
     xmlns:xsi="http://www.#####">
     <sld:NamedLayer>
-        <sld:Name>node[amenity=telephone]</sld:Name>
+        <!-- Ajouter un nom ?? -->
+        <sld:Name>name</sld:Name>
         <!-- Ajouter un titre ?? -->
-        <sld:Title>telephone</sld:Title>
+        <sld:Title>title</sld:Title>
         <sld:UserStyle>
 			<sld:FeatureTypeStyle>
+			<!-- http://suite.opengeo.org/4.1/geoserver/styling/sld-reference/pointsymbolizer.html -->
+			
+			<!-- How to convert css in SLD -->
+			<!--  http://boundlessgeo.com/2012/11/geoserver-css-module-style-in-style/ -->
 				<sld:Rule>
-				    <!-- http://suite.opengeo.org/4.1/geoserver/styling/sld-reference/pointsymbolizer.html -->
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>place</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+				    <sld:PointSymbolizer>
+				        <sld:Graphic>
+                            <sld:ExternalGraphic>
+                                <sld:OnlineResource xlink:type="simple" xlink:href="icons/place.png" />          
+                                <sld:Format>image/png</sld:Format>
+                            </sld:ExternalGraphic>
+                            <!--  Add informations about the text !!!!!  -->
+                        </sld:Graphic>
+				    </sld:PointSymbolizer>
+                    <sld:TextSymbolizer>
+                        <sld:Label>
+                            <ogc:PropertyName>name</ogc:PropertyName>
+                        </sld:Label>
+                        <sld:Font>
+                            <sld:CssParameter name="font-family">Open Sans</CssParameter>
+                            <sld:CssParameter name="font-size">10</CssParameter>
+                            <sld:CssParameter name="font-weight">bold</CssParameter>
+                            <sld:CssParameter name="z-index">20</CssParameter>
+                            <!-- n'a pas été traduit :
+                            text-halo-color: white; 
+                             text-halo-radius: 1.5;
+                             -->
+                                
+                        </sld:Font>
+                         <!-- lOnpeut rajouter : 
+                        <sld:LabelPlacement>
+                            <sld:PointPlacement>
+                            <sld:AnchorPoint>
+                                <sld:AnchorPointX>0.0</AnchorPointX>
+                                <sld:AnchorPointY>0.0</AnchorPointY>
+                            </sld:AnchorPoint>
+                            <sld:Displacement>
+                                <sld:DisplacementX>0</DisplacementX>
+                                <sld:DisplacementY>0</DisplacementY>
+                            </sld:Displacement>
+                            </sld:PointPlacement>
+                        </sld:LabelPlacement>
+                        <sld:Fill>
+                            <sld:CssParameter name="fill">#000000</CssParameter>
+                        </sld:Fill>
+                        -->
+                    </sld:TextSymbolizer>
+				</sld:Rule>
+				
+				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>amenity</ogc:PropertyName>
+                            <ogc:PropertyName>telephone</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				         <!-- <sld:Geometry></sld:Geometry>
 				          We don't need a geometry I think !
 				           -->
-				           
-				        
+				       
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
                                 <sld:OnlineResource xlink:type="simple" xlink:href="icons/telephone.png" />          <!--  WARNING !! MISSING ICONS :    CSS =  icon-image: "icons/telephone.png"; -->
                                 <sld:Format>image/png</sld:Format>
                             </sld:ExternalGraphic>
-                            <!-- 
-                            <sld:Mark></sld:Mark>
-                            <sld:Opacity></sld:Opacity>
-                            <sld:Size></sld:Size>
-                            <sld:Rotation></sld:Rotation>
-
-                            -->
+                          
                         </sld:Graphic>
+                        
+                        
                         
                         <!-- <VendorOption name="labelObstacle">true</VendorOption>  -->
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>   
-    
-    <sld:NamedLayer>
-        <sld:Name>node[barrier=cattle_grid]</sld:Name>
-        <sld:Title>cattle_grid</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>barrier</ogc:PropertyName>
+                            <ogc:PropertyName>cattle_grid</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -55,16 +109,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>  
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=guesthouse]</sld:Name>
-        <sld:Title>guesthouse</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>guesthouse</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -74,16 +126,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>  
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=alpine_hut]</sld:Name>
-        <sld:Title>alpine_hut</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>alpine_hut</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -93,16 +143,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>  
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=camp_site]</sld:Name>
-        <sld:Title>camp_site</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>camp_site</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -112,16 +160,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>  
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=caravan_site]</sld:Name>
-        <sld:Title>caravan_site</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>caravan_site</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -131,35 +177,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=caravan_site]</sld:Name>
-        <sld:Title>caravan_site</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
-				    <sld:PointSymbolizer>
-				        <sld:Graphic>
-                            <sld:ExternalGraphic>
-                                <sld:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_caravan_park.n.16.png" />          
-                                <sld:Format>image/png</sld:Format>
-                            </sld:ExternalGraphic>
-                        </sld:Graphic>
-				    </sld:PointSymbolizer>
-				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>   
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=chalet]</sld:Name>
-        <sld:Title>chalet</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
-				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>chalet</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -169,18 +194,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>   
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=guest_house]</sld:Name>
-        <sld:Title>caravan_site</sld:Title>
-        <sld:Name>node[tourism=bed_and_breakfast]</sld:Name>
-        <sld:Title>bed_and_breakfast</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				<ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>guest_house</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -190,16 +211,31 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>   
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=hotel]</sld:Name>
-        <sld:Title>hotel</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+				
 				<sld:Rule>
+				<ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>bed_and_breakfast</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+				    <sld:PointSymbolizer>
+				        <sld:Graphic>
+                            <sld:ExternalGraphic>
+                                <sld:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_bed_and_breakfast.n.16.png" />          
+                                <sld:Format>image/png</sld:Format>
+                            </sld:ExternalGraphic>
+                        </sld:Graphic>
+				    </sld:PointSymbolizer>
+				</sld:Rule>
+
+				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>hotel</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -209,16 +245,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>  
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=hostel]</sld:Name>
-        <sld:Title>hostel</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>hostel</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -228,16 +262,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>   
-    
-    <sld:NamedLayer>
-        <sld:Name>node[tourism=motel]</sld:Name>
-        <sld:Title>motel</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                            <ogc:PropertyName>motel</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -247,16 +279,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>  
-    
-    <sld:NamedLayer>
-        <sld:Name>node[amenity=fire_station]</sld:Name>
-        <sld:Title>fire_station</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>amenity</ogc:PropertyName>
+                            <ogc:PropertyName>fire_station</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
@@ -266,16 +296,14 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-			</sld:FeatureTypeStyle>
-		</sld:UserStyle>
-    </sld:NamedLayer>    
-    
-    <sld:NamedLayer>
-        <sld:Name>node[amenity=police]</sld:Name>
-        <sld:Title>police</sld:Title>
-        <sld:UserStyle>
-			<sld:FeatureTypeStyle>
+
 				<sld:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>amenity</ogc:PropertyName>
+                            <ogc:PropertyName>police</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
 				    <sld:PointSymbolizer>
 				        <sld:Graphic>
                             <sld:ExternalGraphic>
