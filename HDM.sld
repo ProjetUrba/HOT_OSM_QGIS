@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor version="1.0.0"
-    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.1.0"
+   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
     xmlns="http://www.opengis.net/sld"
     xmlns:ogc="http://www.opengis.net/ogc"
-    xmlns:xlink="http://www.#####/xlink"
-    xmlns:xsi="http://www.#####">
-    <sld:NamedLayer>
+    xmlns:se="http://www.opengis.net/se"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <NamedLayer>
 	<!-- Ajouter un nom ?? -->
         <sld:Name>name</sld:Name>
         <!-- Ajouter un titre ?? -->
@@ -49,7 +50,7 @@
  
         <!-- Roads -->
 
-        <sld:UserStyle>
+        <UserStyle>
             <sld:FeatureTypeStyle>
         
         
@@ -907,10 +908,11 @@
                         <sld:Font>
                             <sld:CssParameter name="font-size">12</sld:CssParameter>  
                         </sld:Font>
+                        <!--
                         <sld:LabelPlacement>
-                            <sld:LinePlacement> </sld:LinePlacement>  <!--CSS = text-position: line;-->
+                            <sld:LinePlacement> </sld:LinePlacement>  CSS = text-position: line;
                             <sld:PointPlacement>
-                                <sld:Displacement>  <!--CSS = text-offset: 7;-->
+                                <sld:Displacement>  CSS = text-offset: 7;
                                     <sld:DisplacementX>
                                         7
                                     </sld:DisplacementX>
@@ -920,6 +922,7 @@
                                 </sld:Displacement>
                             </sld:PointPlacement>  
                         </sld:LabelPlacement>
+                        -->
                     </sld:TextSymbolizer>
                     <!-- text: auto; n'a pas été mis en .sld -->
                 </sld:Rule> 
@@ -1310,8 +1313,9 @@
                             <sld:Font>
                                 <sld:CssParameter name="font-size">9</sld:CssParameter>  
                             </sld:Font>
+                            <!--
                             <sld:LabelPlacement>
-                                <sld:LinePlacement> </sld:LinePlacement>  <!-- CSS :  text-position: line; -->
+                                <sld:LinePlacement> </sld:LinePlacement>   CSS :  text-position: line;
                                 <sld:PointPlacement>
                                     <sld:Displacement>  
                                         <sld:DisplacementX>
@@ -1323,6 +1327,7 @@
                                     </sld:Displacement>
                                 </sld:PointPlacement>  
                             </sld:LabelPlacement>
+                            -->
                         </sld:TextSymbolizer>
                 </sld:Rule>
         
@@ -1346,6 +1351,7 @@
                             <sld:Font>
                                 <sld:CssParameter name="font-size">9</sld:CssParameter>  
                             </sld:Font>
+                            <!--
                             <sld:LabelPlacement>
                                 <sld:LinePlacement> </sld:LinePlacement> 
                                 <sld:PointPlacement>
@@ -1359,6 +1365,7 @@
                                     </sld:Displacement>
                                 </sld:PointPlacement>  
                             </sld:LabelPlacement>
+                            -->
                         </sld:TextSymbolizer>
                 </sld:Rule>
         
@@ -1382,6 +1389,7 @@
                             <sld:Font>
                                 <sld:CssParameter name="font-size">9</sld:CssParameter>  
                             </sld:Font>
+                            <!--
                             <sld:LabelPlacement>
                                 <sld:LinePlacement> </sld:LinePlacement> 
                                 <sld:PointPlacement>
@@ -1395,6 +1403,7 @@
                                     </sld:Displacement>
                                 </sld:PointPlacement>  
                             </sld:LabelPlacement>
+                            -->
                         </sld:TextSymbolizer>
                 </sld:Rule>
         
@@ -1415,6 +1424,7 @@
                             <sld:Fill>
                                 <sld:CssParameter name="fill">#3434ff</sld:CssParameter> 
                             </sld:Fill>
+                            <!--
                             <sld:LabelPlacement>
                                 <sld:LinePlacement> </sld:LinePlacement> 
                                 <sld:PointPlacement>
@@ -1428,6 +1438,7 @@
                                     </sld:Displacement>
                                 </sld:PointPlacement>  
                             </sld:LabelPlacement>
+                            -->
                         </sld:TextSymbolizer>
                 </sld:Rule>
         
@@ -2067,16 +2078,25 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </sld:Label>
                         <sld:Font>
-                            <sld:CssParameter name="font-family">Open Sans</CssParameter>
-                            <sld:CssParameter name="font-size">10</CssParameter>
-                            <sld:CssParameter name="font-weight">bold</CssParameter>
+                            <sld:CssParameter name="font-size">10</sld:CssParameter>  
+                        </sld:Font>
+                        <sld:Font>
+                            <sld:CssParameter name="font-family">Open Sans</sld:CssParameter>  
+                        </sld:Font>
+                        <sld:Font>
+                            <sld:CssParameter name="font-weight">bold</sld:CssParameter>  
+                        </sld:Font>
+                        <!--
+                        <sld:Font>
+                          
                             <sld:CssParameter name="z-index">20</CssParameter>
-                            <!-- n'a pas été traduit :
+                             n'a pas été traduit :
                             text-halo-color: white; 
                              text-halo-radius: 1.5;
-                             -->
-                                
+                             
                         </sld:Font>
+                        -->
+                        
                          <!-- lOnpeut rajouter : 
                         <sld:LabelPlacement>
                             <sld:PointPlacement>
@@ -2537,15 +2557,12 @@
                         </sld:Graphic>
 				    </sld:PointSymbolizer>
 				</sld:Rule>
-				
-				
-				
-				
-				<!--  Missing code --->
-				
-				
-				
-				
+
+
+
+
+
+
 				<sld:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2965,8 +2982,9 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </sld:Label>
                         <sld:Font>
-                            <sld:CssParameter name="font-size">10</CssParameter>
+                            <sld:CssParameter name="font-size">10</sld:CssParameter>  
                         </sld:Font>
+                       
                     </sld:TextSymbolizer>
 				</sld:Rule>
 				
@@ -3506,16 +3524,9 @@
 
 
 
-
-
-
-
-
-
-
     
     
             </sld:FeatureTypeStyle>
-        </sld:UserStyle>
-    </sld:NamedLayer> 
+        </UserStyle>
+    </NamedLayer> 
 </StyledLayerDescriptor>
