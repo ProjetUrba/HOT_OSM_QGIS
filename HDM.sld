@@ -1487,6 +1487,7 @@
 
 
 
+
 <!-- 
 Les catégories sont :
 
@@ -1508,7 +1509,6 @@ Les catégories sont :
     - Physical decoration
     - Attribute decoration ??
     
->>>>>>> vincent
 *****************
 - core_pois.css -
 *****************
