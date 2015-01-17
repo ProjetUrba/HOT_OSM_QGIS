@@ -6,7 +6,6 @@
     xmlns:gml="http://www.opengis.net/gml"
     xmlns:xlink="http://www.#####/xlink"
     xmlns:xsi="http://www.#####">
-
     <sld:NamedLayer>
         <!-- Ajouter un nom ?? -->
         <sld:Name>name</sld:Name>
@@ -41,7 +40,7 @@
                             <sld:CssParameter name="font-family">Open Sans</CssParameter>
                             <sld:CssParameter name="font-size">10</CssParameter>
                             <sld:CssParameter name="font-weight">bold</CssParameter>
-                            <sld:CssParameter name="z-index">20</CssParameter>
+                            <!--<sld:CssParameter name="z-index">20</CssParameter>-->
                             <!-- n'a pas été traduit :
                             text-halo-color: white; 
                              text-halo-radius: 1.5;
@@ -1508,7 +1507,6 @@ Les catégories sont :
     - Physical decoration
     - Attribute decoration ??
     
->>>>>>> vincent
 *****************
 - core_pois.css -
 *****************
