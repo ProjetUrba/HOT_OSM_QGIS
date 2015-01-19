@@ -71,15 +71,13 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter> 
-                        </se:Fill>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
+                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -114,11 +112,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -159,11 +155,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
+                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -198,11 +192,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -238,11 +230,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -277,11 +267,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -317,11 +305,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter> 
+                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -356,11 +342,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -395,11 +379,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter> 
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>
+                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
@@ -434,11 +416,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter> 
-                        </se:Fill>
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
@@ -474,11 +454,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter> 
-                        </se:Fill>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
+                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -514,11 +492,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
-                        <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
-                        </se:Fill>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
+                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  <!--CSS = text-position: line;-->
@@ -1431,6 +1407,7 @@
                             <se:Font>
                                 <se:SvgParameter name="font-size">9</se:SvgParameter>  
                             </se:Font>
+                            <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement>   CSS :  text-position: line;
                                 <se:PointPlacement>
@@ -1440,6 +1417,7 @@
                                     </se:Displacement>
                                 </se:PointPlacement>  
                             </se:LabelPlacement>
+                            -->
                         </se:TextSymbolizer>
                 </se:Rule>
         
@@ -1463,6 +1441,7 @@
                             <se:Font>
                                 <se:SvgParameter name="font-size">9</se:SvgParameter>  
                             </se:Font>
+                            <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement> 
                                 <se:PointPlacement>
@@ -1472,6 +1451,7 @@
                                     </se:Displacement>
                                 </se:PointPlacement>  
                             </se:LabelPlacement>
+                            -->
                         </se:TextSymbolizer>
                 </se:Rule>
         
@@ -1495,6 +1475,7 @@
                             <se:Font>
                                 <se:SvgParameter name="font-size">9</se:SvgParameter>  
                             </se:Font>
+                            <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement> 
                                 <se:PointPlacement>
@@ -1504,6 +1485,7 @@
                                     </se:Displacement>
                                 </se:PointPlacement>  
                             </se:LabelPlacement>
+                            -->
                         </se:TextSymbolizer>
                 </se:Rule>
         
@@ -1524,6 +1506,7 @@
                             <se:Fill>
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
+                            <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement> 
                                 <se:PointPlacement>
@@ -1533,7 +1516,7 @@
                                     </se:Displacement>
                                 </se:PointPlacement>  
                             </se:LabelPlacement>
-                            
+                            -->
                         </se:TextSymbolizer>
                 </se:Rule>
         
