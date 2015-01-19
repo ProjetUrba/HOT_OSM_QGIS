@@ -19,12 +19,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#ADD6A5</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#ADD6A5</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#ADD6A5</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#ADD6A5</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -41,13 +41,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#FFFF00</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#FFFF00</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#ffdd44</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#ffdd44</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -66,8 +66,8 @@
 	</ogc:Filter>
 	<sld:LineSymbolizer>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#000000</sld:CssParameter>  <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">3</sld:CssParameter>  <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#000000</sld:SvgParameter>  <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">3</sld:SvgParameter>  <!--Svg = width; -->
 		</sld:Stroke>
 	</sld:LineSymbolizer>	
 </sld:Rule>
@@ -83,13 +83,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#444444</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.3</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#444444</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.3</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#444444</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#444444</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -107,12 +107,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#eeece1</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.05</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#eeece1</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.05</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#EB6D69</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#EB6D69</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -131,12 +131,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#aa4422</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.15</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#aa4422</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.15</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#cc2222</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#cc2222</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -153,12 +153,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#D5C6C9</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.15</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#D5C6C9</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.15</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#D5C6C9</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#D5C6C9</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -176,13 +176,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#ff4444</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#ff4444</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#ff4444</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#ff4444</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -200,12 +200,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#8CD6B5</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#8CD6B5</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#8CD6B5</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#8CD6B5</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -221,13 +221,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#F7CECE</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#F7CECE</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#F7CECE</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#F7CECE</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -246,13 +246,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#F7F7DE</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#F7F7DE</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#F7F7DE</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#F7F7DE</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -267,13 +267,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#F7F7DE</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#F7F7DE</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#F7F7DE</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#F7F7DE</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -291,13 +291,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#D6D6D6</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#D6D6D6</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#D6D6D6</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#D6D6D6</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -315,13 +315,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#D58C8C</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = opacity; -->
+			<sld:SvgParameter name="fill">#D58C8C</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#D58C8C</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#D58C8C</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -343,13 +343,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#3434ff</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#3434ff</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#3434ff</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#3434ff</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -367,13 +367,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#3434ff</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#3434ff</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#3434ff</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#3434ff</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -391,13 +391,13 @@
 	</ogc:Filter>
 	<sld:LineSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#3434ff</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#3434ff</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#000000</sld:CssParameter>  <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>  <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#000000</sld:SvgParameter>  <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>  <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	</sld:LineSymbolizer>	
 </sld:Rule>
@@ -413,13 +413,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#222222</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.1</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#222222</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.1</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#000000</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#000000</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -438,14 +438,14 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#222222</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.1</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#222222</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.1</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#3434ff</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="stroke-dasharray">4 2</CssParameter>  <!--CSS = dashes; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#3434ff</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="stroke-dasharray">4 2</SvgParameter>  <!--Svg = dashes; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -463,13 +463,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#3434ff</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#3434ff</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#3434ff</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#3434ff</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -488,13 +488,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#008000</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#008000</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#008000</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#008000</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -511,13 +511,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#008000</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#008000</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#008000</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#008000</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -534,13 +534,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#44ff44</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.15</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#44ff44</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.15</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#22aa22</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#22aa22</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -558,13 +558,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#66ff44</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#66ff44</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#66ff44</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#66ff44</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -581,13 +581,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
         <sld:Fill>
-			<sld:CssParameter name="fill">#88ff44</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#88ff44</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#88bb44</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#88bb44</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter> 
 		</sld:Stroke>
     </sld:PolygonSymbolizer>		
 </sld:Rule>		  	
@@ -604,11 +604,11 @@
 	</ogc:Filter>
 +	<sld:PolygonSymbolizer>
         <sld:Fill>
-			<sld:CssParameter name="fill">#008000</sld:CssParameter>   <!--CSS = fill-color; -->
+			<sld:SvgParameter name="fill">#008000</sld:SvgParameter>   <!--Svg = fill-color; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#008000</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>   
+			<sld:SvgParameter name="stroke">#008000</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>   
 		</sld:Stroke>
     </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -625,12 +625,12 @@
 	</ogc:Filter>
 +	<sld:PolygonSymbolizer>
         <sld:Fill>
-			<sld:CssParameter name="fill">#ADCEB5</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#ADCEB5</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#ADCEB5</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#ADCEB5</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
     </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -646,12 +646,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
         <sld:Fill>
-			<sld:CssParameter name="fill">#ADCEB5</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#ADCEB5</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#ADCEB5</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#ADCEB5</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
     </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -669,12 +669,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
     	<sld:Fill>
-			<sld:CssParameter name="fill">#bbaa66</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#bbaa66</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#bbaa66</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#bbaa66</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
     </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -692,11 +692,11 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#FFFF00</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#FFFF00</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#FFFF00</sld:CssParameter>    <!--CSS = color; -->
+			<sld:SvgParameter name="stroke">#FFFF00</sld:SvgParameter>    <!--Svg = color; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -714,12 +714,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#808080</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.1</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#808080</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.1</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#808080</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">1</sld:CssParameter>    <!--CSS = width; -->
+			<sld:SvgParameter name="stroke">#808080</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">1</sld:SvgParameter>    <!--Svg = width; -->
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -735,10 +735,10 @@
 	</ogc:Filter>
 	<sld:LineSymbolizer>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#777</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="width">3</sld:CssParameter>  
-			<sld:CssParameter name="casing-color">#000000</sld:CssParameter>  
-			<sld:CssParameter name="casing-width">1</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#777</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="width">3</sld:SvgParameter>  
+			<sld:SvgParameter name="casing-color">#000000</sld:SvgParameter>  
+			<sld:SvgParameter name="casing-width">1</sld:SvgParameter> 
 		</sld:Stroke>
 	</sld:LineSymbolizer>	
 </sld:Rule>
@@ -759,8 +759,8 @@
 	</ogc:Filter>
 	<sld:LineSymbolizer>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke-dasharray">4 2</CssParameter>  <!--CSS = dashes; -->
-			<sld:CssParameter name="casing-color">#444</sld:CssParameter>
+			<sld:SvgParameter name="stroke-dasharray">4 2</SvgParameter>  <!--Svg = dashes; -->
+			<sld:SvgParameter name="casing-color">#444</sld:SvgParameter>
 		</sld:Stroke>
 	</sld:LineSymbolizer>	
 </sld:Rule>
@@ -776,12 +776,12 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#FFC0CB</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.4</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#FFC0CB</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.4</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#FFC0CB</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#FFC0CB</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -798,10 +798,10 @@
 	</ogc:Filter>
 	<sld:LineSymbolizer>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#808080</sld:CssParameter>  <!--CSS = color; -->
-			<sld:CssParameter name="width">3</sld:CssParameter>  
-			<sld:CssParameter name="casing-color">#3434ff</sld:CssParameter>  
-			<sld:CssParameter name="casing-width">2</sld:CssParameter> 
+			<sld:SvgParameter name="stroke">#808080</sld:SvgParameter>  <!--Svg = color; -->
+			<sld:SvgParameter name="width">3</sld:SvgParameter>  
+			<sld:SvgParameter name="casing-color">#3434ff</sld:SvgParameter>  
+			<sld:SvgParameter name="casing-width">2</sld:SvgParameter> 
 		</sld:Stroke>
 	</sld:LineSymbolizer>	
 </sld:Rule>
@@ -818,13 +818,13 @@
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#44ee22</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#44ee22</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#44ee22</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#44ee22</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
@@ -849,9 +849,9 @@ way[boundary]                         {
 	</ogc:Filter>
 	<sld:LineSymbolizer>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#000066</sld:CssParameter>  <!--CSS = color; -->
-			<sld:CssParameter name="width">2</sld:CssParameter>  <!--CSS = width; -->
-			<sld:CssParameter name="dasharray">24,4, 4, 4</CssParameter>  <!--CSS = dashes; -->
+			<sld:SvgParameter name="stroke">#000066</sld:SvgParameter>  <!--Svg = color; -->
+			<sld:SvgParameter name="width">2</sld:SvgParameter>  <!--Svg = width; -->
+			<sld:SvgParameter name="dasharray">24,4, 4, 4</SvgParameter>  <!--Svg = dashes; -->
 		
 		</sld:Stroke>
 	</sld:LineSymbolizer>	
@@ -900,13 +900,13 @@ way[boundary=administrative][waterway] {
 	</ogc:Filter>
 	<sld:PolygonSymbolizer>
 		<sld:Fill>
-			<sld:CssParameter name="fill">#664466</sld:CssParameter>   <!--CSS = fill-color; -->
-			<sld:CssParameter name="fill-opacity">0.2</sld:CssParameter>    <!--CSS = fill-opacity; -->
+			<sld:SvgParameter name="fill">#664466</sld:SvgParameter>   <!--Svg = fill-color; -->
+			<sld:SvgParameter name="fill-opacity">0.2</sld:SvgParameter>    <!--Svg = fill-opacity; -->
 		</sld:Fill>
 		<sld:Stroke>
-			<sld:CssParameter name="stroke">#664466</sld:CssParameter>    <!--CSS = color; -->
-			<sld:CssParameter name="stroke-width">2</sld:CssParameter>    <!--CSS = width; -->
-			<sld:CssParameter name="small_area">true</sld:CssParameter>
+			<sld:SvgParameter name="stroke">#664466</sld:SvgParameter>    <!--Svg = color; -->
+			<sld:SvgParameter name="stroke-width">2</sld:SvgParameter>    <!--Svg = width; -->
+			<sld:SvgParameter name="small_area">true</sld:SvgParameter>
 		</sld:Stroke>
 	 </sld:PolygonSymbolizer>		
 </sld:Rule>
