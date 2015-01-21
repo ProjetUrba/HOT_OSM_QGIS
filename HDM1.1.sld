@@ -71,7 +71,8 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -109,6 +110,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -152,6 +154,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#809BC0</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -189,6 +192,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -227,6 +231,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#E46D71</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -264,6 +269,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#E46D71</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -302,6 +308,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -339,6 +346,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -376,6 +384,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -413,6 +422,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -451,6 +461,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#D0D0D0</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -489,6 +500,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#DAA529</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
@@ -526,6 +538,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#888</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -550,6 +563,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#888</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -587,6 +601,7 @@
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#aaaaaa</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -826,6 +841,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">2,4</se:SvgParameter> 
+                            <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -3592,6 +3608,908 @@
 				
 				<!--  Nous en sommes à la ligne 977 du fichier .mapcss  -->
 
+
+
+                <!-- area[natural]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>natural</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ADD6A5</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ADD6A5</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[natural=beach]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>natural</ogc:PropertyName>
+                            <ogc:PropertyName>beach</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ffdd44</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- way[natural=coastline] -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>natural</ogc:PropertyName>
+                            <ogc:PropertyName>coastline</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  <!--Svg = width; -->
+                        </se:Stroke>
+                    </se:LineSymbolizer>	
+                </se:Rule>
+
+
+
+                <!-- area[landuse]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#444444</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#444444</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- area[landuse=residential]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>residential</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#eeece1</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.05</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#EB6D69</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- area[landuse=retail]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>retail</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#aa4422</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#cc2222</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[landuse=commercial]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>commercial</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#D5C6C9</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#D5C6C9</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- area[landuse=military]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>military</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ff4444</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ff4444</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- area[leisure]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#8CD6B5</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#8CD6B5</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[tourism]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>tourism</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#F7CECE</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#F7CECE</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+
+                <!-- area[historic]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>historic</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+                <!-- area[ruins]:closed  -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>ruins</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- area[military]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>military</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#D6D6D6</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#D6D6D6</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- area[building]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>building</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#D58C8C</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#D58C8C</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!--area[waterway][waterway!=dam]:closed-->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>waterway</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsNotEqualTo>
+                            <ogc:PropertyName>waterway</ogc:PropertyName>
+                            <ogc:PropertyName>dam</ogc:PropertyName>
+                        </ogc:PropertyIsNotEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!--area[natural=water]:closed-->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>natural</ogc:PropertyName>
+                            <ogc:PropertyName>water</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- way[waterway=dam] -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>waterway</ogc:PropertyName>
+                            <ogc:PropertyName>dam</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                    </se:LineSymbolizer>	
+                </se:Rule>
+
+
+
+                <!-- area[man_made]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>man_made</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- area[man_made=reservoir_covered]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>man_made</ogc:PropertyName>
+                            <ogc:PropertyName>reservoir_covered</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke-dasharray">4 2</SvgParameter>  <!--Svg = dashes; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- area[landuse=reservoir]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>reservoir</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+
+                <!-- area[landuse=forest]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>forest</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>--> 
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[natural=wood]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>natural</ogc:PropertyName>
+                            <ogc:PropertyName>wood</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[leisure=park]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                            <ogc:PropertyName>park</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#44ff44</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#22aa22</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- area[leisure=garden]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                            <ogc:PropertyName>garden</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#66ff44</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#66ff44</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[leisure=pitch]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                            <ogc:PropertyName>pitch</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#88ff44</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#88bb44</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>		
+                </se:Rule>		  	
+                <!-- Pas pris en compte : " z-index: 6;" -->
+
+
+                <!-- area[landuse=recreation_ground]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>recreation_ground</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                	<se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>   
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!--area[amenity]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>amenity</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                	<se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- area[shop]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>shop</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- area[amenity=parking]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>amenity</ogc:PropertyName>
+                            <ogc:PropertyName>parking</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#bbaa66</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#bbaa66</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+
+                <!-- area[amenity=school]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>amenity</ogc:PropertyName>
+                            <ogc:PropertyName>school</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#FFFF00</se:SvgParameter>    <!--Svg = color; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+                <!-- Pas pris en compte : "prop_area_small_name : 1;" -->
+
+
+
+                <!-- area[public_transport=pay_scale_area]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>public_transport</ogc:PropertyName>
+                            <ogc:PropertyName>pay_scale_area</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#808080</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#808080</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+                <!-- way[man_made=pier] -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>man_made</ogc:PropertyName>
+                            <ogc:PropertyName>pier</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#777</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+                        </se:Stroke>
+                    </se:LineSymbolizer>	
+                </se:Rule>
+                <!-- pas pris en compte : "z-index: 4;" -->
+
+
+                <!-- way[man_made=pier][floating=yes] -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>man_made</ogc:PropertyName>
+                            <ogc:PropertyName>pier</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>floating</ogc:PropertyName>
+                            <ogc:PropertyName>yes</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">4 2</SvgParameter>  <!--Svg = dashes; -->
+                            <se:SvgParameter name="stroke">#444</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>	
+                </se:Rule>
+                <!-- pas pris en compte : "z-index: 5;" -->
+
+                <!-- area[leisure=marina]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                            <ogc:PropertyName>marina</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#FFC0CB</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#FFC0CB</se:SvgParameter>    <!--Svg = color; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+
+                <!-- way[leisure=slipway] -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                            <ogc:PropertyName>slipway</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="color">#808080</se:SvgParameter>  <!--Svg = color; -->
+                            <se:SvgParameter name="width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                        </se:Stroke>
+                    </se:LineSymbolizer>	
+                </se:Rule>
+                <!-- pas pris en compte : "z-index: 5;" -->
+
+
+                <!-- area[leisure=golf_course]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>leisure</ogc:PropertyName>
+                            <ogc:PropertyName>golf_course</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#44ee22</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#44ee22</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
+
+
+                <!--PAS FINI
+                way[boundary]                         {
+                    z-index: 5;
+                    color: #000066;
+                    width: 2;
+                    opacity: 0.6;
+                    dashes: 24,4, 4, 4;
+                    z-index: 4;
+                -->
+
+                <!-- way[boundary] -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>boundary</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000066</se:SvgParameter>  <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  <!--Svg = width; -->
+                            <se:SvgParameter name="stroke-dasharray">24,4, 4, 4</SvgParameter>  <!--Svg = dashes; -->
+        
+                        </se:Stroke>
+                    </se:LineSymbolizer>	
+                </se:Rule>
+                <!-- pas pris en compte : "z-index: 5;" -->
+
+                <!-- way[boundary=national_park]           {
+                    z-index: 5;
+                    color: #225500;
+                    width: 2;
+                    opacity: 0.6;
+                    dashes: 24,4, 4, 4;
+                    z-index: 4;
+                }
+                way[boundary=protected_area]          {
+                    z-index: 5;
+                    color: #447744;
+                    width: 2;
+                    opacity: 0.6;
+                    dashes: 12,4, 4, 4;
+                    z-index: 4;
+                }
+                way[boundary=administrative]          {
+                    z-index: 5;
+                    color: purple;
+                    width: 2;
+                    opacity: 0.2;
+                    dashes: 24,4;
+                    z-index: 4;
+                }
+                way[boundary=administrative][waterway] {
+                    z-index: 5;
+                    opacity: 0.8;
+                    z-index: 4;
+                    dashes: 24,4;
+                    width: 6;
+                } -->
+
+                <!-- area[landuse=cemetery]:closed -->
+                <se:Rule>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>landuse</ogc:PropertyName>
+                            <ogc:PropertyName>cementery</ogc:PropertyName>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#664466</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#664466</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
 
 
 
