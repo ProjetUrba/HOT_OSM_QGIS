@@ -56,7 +56,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>trunk</ogc:PropertyName>
+                            <ogc:Literal>trunk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -94,7 +94,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>trunk_link</ogc:PropertyName>
+                            <ogc:Literal>trunk_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                      <se:LineSymbolizer>
@@ -138,7 +138,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>motorway</ogc:PropertyName>
+                            <ogc:Literal>motorway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -176,7 +176,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>motorway_link</ogc:PropertyName>
+                            <ogc:Literal>motorway_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -215,7 +215,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>primary</ogc:PropertyName>
+                            <ogc:Literal>primary</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -253,7 +253,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>primary_link</ogc:PropertyName>
+                            <ogc:Literal>primary_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -292,7 +292,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>secondary</ogc:PropertyName>
+                            <ogc:Literal>secondary</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -330,7 +330,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>secondary_link</ogc:PropertyName>
+                            <ogc:Literal>secondary_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -368,7 +368,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>tertiary</ogc:PropertyName>
+                            <ogc:Literal>tertiary</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -406,7 +406,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>tertiary_link</ogc:PropertyName>
+                            <ogc:Literal>tertiary_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -445,7 +445,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>unclassified</ogc:PropertyName>
+                            <ogc:Literal>unclassified</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -484,7 +484,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>residential</ogc:PropertyName>
+                            <ogc:Literal>residential</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -522,7 +522,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>narrow</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -547,7 +547,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>service</ogc:PropertyName>
+                            <ogc:Literal>service</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -581,11 +581,11 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>service</ogc:PropertyName>
+                            <ogc:Literal>service</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>service</ogc:PropertyName>
-                            <ogc:PropertyName>parking_aisle</ogc:PropertyName>
+                            <ogc:Literal>parking_aisle</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -610,11 +610,11 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>service</ogc:PropertyName>
+                            <ogc:Literal>service</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>service</ogc:PropertyName>
-                            <ogc:PropertyName>alley</ogc:PropertyName>
+                            <ogc:Literal>alley</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -636,7 +636,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>road</ogc:PropertyName>
+                            <ogc:Literal>road</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -656,7 +656,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>living_street</ogc:PropertyName>
+                            <ogc:Literal>living_street</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -695,7 +695,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>surface</ogc:PropertyName>
-                            <ogc:PropertyName>paved</ogc:PropertyName>
+                            <ogc:Literal>paved</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -709,7 +709,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>surface</ogc:PropertyName>
-                            <ogc:PropertyName>asphalt</ogc:PropertyName>
+                            <ogc:Literal>asphalt</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -723,7 +723,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>surface</ogc:PropertyName>
-                            <ogc:PropertyName>paving_stones</ogc:PropertyName>
+                            <ogc:Literal>paving_stones</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -737,7 +737,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>trunk</ogc:PropertyName>
+                            <ogc:Literal>trunk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -751,7 +751,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>trunk_link</ogc:PropertyName>
+                            <ogc:Literal>trunk_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -765,7 +765,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>motorway</ogc:PropertyName> 
+                            <ogc:Literal>motorway</ogc:Literal> 
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -779,7 +779,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>motorway_link</ogc:PropertyName>
+                            <ogc:Literal>motorway_link</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -794,7 +794,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>smoothness</ogc:PropertyName>
-                            <ogc:PropertyName>intermediate</ogc:PropertyName>
+                            <ogc:Literal>intermediate</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -809,7 +809,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>smoothness</ogc:PropertyName>
-                            <ogc:PropertyName>bad</ogc:PropertyName>
+                            <ogc:Literal>bad</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -827,7 +827,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>   	<!-- way[highway=pedestrian]!:closed -->
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>pedestrian</ogc:PropertyName>
+                            <ogc:Literal>pedestrian</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -851,7 +851,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo> <!-- area[highway=pedestrian]:closed -->
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>pedestrian</ogc:PropertyName>
+                            <ogc:Literal>pedestrian</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -874,7 +874,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>steps</ogc:PropertyName>
+                            <ogc:Literal>steps</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -891,7 +891,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>footway</ogc:PropertyName>
+                            <ogc:Literal>footway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -909,11 +909,11 @@
                     <ogc:Filter> <!-- way[highway=footway][bicycle=yes]::bike -->
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>footway</ogc:PropertyName>
+                            <ogc:Literal>footway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bicycle</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -929,7 +929,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>bridleway</ogc:PropertyName>
+                            <ogc:Literal>bridleway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -947,7 +947,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>track</ogc:PropertyName>
+                            <ogc:Literal>track</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -965,7 +965,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>path</ogc:PropertyName>
+                            <ogc:Literal>path</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -983,7 +983,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>cycleway</ogc:PropertyName>
+                            <ogc:Literal>cycleway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1036,7 +1036,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>proposed</ogc:PropertyName>
+                            <ogc:Literal>proposed</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1052,7 +1052,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>construction</ogc:PropertyName>
+                            <ogc:Literal>construction</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1077,7 +1077,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>rail</ogc:PropertyName>
+                            <ogc:Literal>rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1094,7 +1094,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>rail</ogc:PropertyName>
+                            <ogc:Literal>rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1111,7 +1111,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>rail</ogc:PropertyName>
+                            <ogc:Literal>rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1127,7 +1127,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>rail</ogc:PropertyName>
+                            <ogc:Literal>rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1143,7 +1143,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>platform</ogc:PropertyName>
+                            <ogc:Literal>platform</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1158,7 +1158,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>subway</ogc:PropertyName>
+                            <ogc:Literal>subway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1173,7 +1173,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>subway</ogc:PropertyName>
+                            <ogc:Literal>subway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1189,7 +1189,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>subway</ogc:PropertyName>
+                            <ogc:Literal>subway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1205,7 +1205,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>subway</ogc:PropertyName>
+                            <ogc:Literal>subway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1221,7 +1221,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>disused</ogc:PropertyName>
+                            <ogc:Literal>disused</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1237,7 +1237,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>abandoned</ogc:PropertyName>
+                            <ogc:Literal>abandoned</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1253,7 +1253,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>disused</ogc:PropertyName>
+                            <ogc:Literal>disused</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1269,7 +1269,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>disused</ogc:PropertyName>
+                            <ogc:Literal>disused</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1285,7 +1285,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>tram</ogc:PropertyName>
+                            <ogc:Literal>tram</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1302,7 +1302,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>tram</ogc:PropertyName>
+                            <ogc:Literal>tram</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1325,7 +1325,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>light_rail</ogc:PropertyName>
+                            <ogc:Literal>light_rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1340,7 +1340,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
-                            <ogc:PropertyName>light_rail</ogc:PropertyName>
+                            <ogc:Literal>light_rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1356,7 +1356,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>light_rail</ogc:PropertyName>
+                            <ogc:Literal>light_rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1372,7 +1372,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
-                            <ogc:PropertyName>light_rail</ogc:PropertyName>
+                            <ogc:Literal>light_rail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1388,7 +1388,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>traffic_calming</ogc:PropertyName>
-                            <ogc:PropertyName>bump</ogc:PropertyName>
+                            <ogc:Literal>bump</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PointSymbolizer>
@@ -1407,7 +1407,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:PropertyName>river</ogc:PropertyName>
+                            <ogc:Literal>river</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1441,7 +1441,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:PropertyName>canal</ogc:PropertyName>
+                            <ogc:Literal>canal</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1475,7 +1475,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:PropertyName>stream</ogc:PropertyName>
+                            <ogc:Literal>stream</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1509,7 +1509,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:PropertyName>drain</ogc:PropertyName>
+                            <ogc:Literal>drain</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1543,7 +1543,7 @@
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1560,7 +1560,7 @@
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>intermittent</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1577,7 +1577,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>aerodrome</ogc:PropertyName>
+                            <ogc:Literal>aerodrome</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1598,7 +1598,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>aerodrome</ogc:PropertyName>
+                            <ogc:Literal>aerodrome</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1613,7 +1613,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>taxiway</ogc:PropertyName>
+                            <ogc:Literal>taxiway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1634,7 +1634,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>taxiway</ogc:PropertyName>
+                            <ogc:Literal>taxiway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -1652,7 +1652,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1673,7 +1673,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1689,7 +1689,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1704,7 +1704,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1720,7 +1720,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1735,7 +1735,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1751,7 +1751,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1766,7 +1766,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1782,7 +1782,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1797,7 +1797,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1813,7 +1813,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1828,7 +1828,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>runway</ogc:PropertyName>
+                            <ogc:Literal>runway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -1846,7 +1846,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
-                            <ogc:PropertyName>apron</ogc:PropertyName>
+                            <ogc:Literal>apron</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -1881,7 +1881,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>fence</ogc:PropertyName>
+                            <ogc:Literal>fence</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1897,7 +1897,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>wall</ogc:PropertyName>
+                            <ogc:Literal>wall</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1914,7 +1914,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
-                            <ogc:PropertyName>line</ogc:PropertyName>
+                            <ogc:Literal>line</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1937,7 +1937,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
-                            <ogc:PropertyName>minor_line</ogc:PropertyName>
+                            <ogc:Literal>minor_line</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1960,7 +1960,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
-                            <ogc:PropertyName>station</ogc:PropertyName>
+                            <ogc:Literal>station</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -1978,7 +1978,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
-                            <ogc:PropertyName>generator</ogc:PropertyName>
+                            <ogc:Literal>generator</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -2000,7 +2000,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>golf</ogc:PropertyName>
-                            <ogc:PropertyName>hole</ogc:PropertyName>
+                            <ogc:Literal>hole</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2022,7 +2022,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>sports_centre</ogc:PropertyName>
+                            <ogc:Literal>sports_centre</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -2042,7 +2042,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2057,7 +2057,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
-                            <ogc:PropertyName>viaduct</ogc:PropertyName>
+                            <ogc:Literal>viaduct</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2072,7 +2072,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
-                            <ogc:PropertyName>suspension</ogc:PropertyName>
+                            <ogc:Literal>suspension</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2087,7 +2087,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2102,7 +2102,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
-                            <ogc:PropertyName>viaduct</ogc:PropertyName>
+                            <ogc:Literal>viaduct</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2117,7 +2117,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
-                            <ogc:PropertyName>suspension</ogc:PropertyName>
+                            <ogc:Literal>suspension</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -2132,7 +2132,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
@@ -2150,7 +2150,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
@@ -2209,7 +2209,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>telephone</ogc:PropertyName>
+                            <ogc:Literal>telephone</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2233,7 +2233,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>cattle_grid</ogc:PropertyName>
+                            <ogc:Literal>cattle_grid</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2249,7 +2249,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>guesthouse</ogc:PropertyName>
+                            <ogc:Literal>guesthouse</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2265,7 +2265,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>alpine_hut</ogc:PropertyName>
+                            <ogc:Literal>alpine_hut</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2281,7 +2281,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>camp_site</ogc:PropertyName>
+                            <ogc:Literal>camp_site</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2297,7 +2297,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>caravan_site</ogc:PropertyName>
+                            <ogc:Literal>caravan_site</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2313,7 +2313,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>chalet</ogc:PropertyName>
+                            <ogc:Literal>chalet</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2329,7 +2329,7 @@
 				<ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>guest_house</ogc:PropertyName>
+                            <ogc:Literal>guest_house</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2345,7 +2345,7 @@
 				<ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>bed_and_breakfast</ogc:PropertyName>
+                            <ogc:Literal>bed_and_breakfast</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2361,7 +2361,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>hotel</ogc:PropertyName>
+                            <ogc:Literal>hotel</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2377,7 +2377,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>hostel</ogc:PropertyName>
+                            <ogc:Literal>hostel</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2393,7 +2393,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
-                            <ogc:PropertyName>motel</ogc:PropertyName>
+                            <ogc:Literal>motel</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2409,7 +2409,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>fire_station</ogc:PropertyName>
+                            <ogc:Literal>fire_station</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2425,7 +2425,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>police</ogc:PropertyName>
+                            <ogc:Literal>police</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2441,7 +2441,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>post_box</ogc:PropertyName>
+                            <ogc:Literal>post_box</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2457,7 +2457,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>recycling</ogc:PropertyName>
+                            <ogc:Literal>recycling</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2473,7 +2473,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>bollard</ogc:PropertyName>
+                            <ogc:Literal>bollard</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2489,7 +2489,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>gate</ogc:PropertyName>
+                            <ogc:Literal>gate</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2505,7 +2505,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>gate</ogc:PropertyName>
+                            <ogc:Literal>gate</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2521,7 +2521,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>stile</ogc:PropertyName>
+                            <ogc:Literal>stile</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2537,7 +2537,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:PropertyName>stile</ogc:PropertyName>
+                            <ogc:Literal>stile</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2553,7 +2553,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>toll_booth</ogc:PropertyName>
+                            <ogc:Literal>toll_booth</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2569,7 +2569,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>lift_gate</ogc:PropertyName>
+                            <ogc:Literal>lift_gate</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2585,7 +2585,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>kissing_gate</ogc:PropertyName>
+                            <ogc:Literal>kissing_gate</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2601,7 +2601,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>cycle_barrier</ogc:PropertyName>
+                            <ogc:Literal>cycle_barrier</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2617,7 +2617,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>block</ogc:PropertyName>
+                            <ogc:Literal>block</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2633,7 +2633,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
-                            <ogc:PropertyName>cattle_grid</ogc:PropertyName>
+                            <ogc:Literal>cattle_grid</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2655,7 +2655,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>school</ogc:PropertyName>
+                            <ogc:Literal>school</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2671,7 +2671,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>university</ogc:PropertyName>
+                            <ogc:Literal>university</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2687,7 +2687,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>library</ogc:PropertyName>
+                            <ogc:Literal>library</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2703,7 +2703,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>arts_center</ogc:PropertyName>
+                            <ogc:Literal>arts_center</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2719,7 +2719,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>bar</ogc:PropertyName>
+                            <ogc:Literal>bar</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2735,7 +2735,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>cafe</ogc:PropertyName>
+                            <ogc:Literal>cafe</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2751,7 +2751,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>fast_food</ogc:PropertyName>
+                            <ogc:Literal>fast_food</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2767,7 +2767,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>pub</ogc:PropertyName>
+                            <ogc:Literal>pub</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2783,7 +2783,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>restaurant</ogc:PropertyName>
+                            <ogc:Literal>restaurant</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2799,7 +2799,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>clinic</ogc:PropertyName>
+                            <ogc:Literal>clinic</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2815,7 +2815,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>hospital</ogc:PropertyName>
+                            <ogc:Literal>hospital</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2831,7 +2831,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>pharmacy</ogc:PropertyName>
+                            <ogc:Literal>pharmacy</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2847,7 +2847,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>studio</ogc:PropertyName>
+                            <ogc:Literal>studio</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2863,7 +2863,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>atm</ogc:PropertyName>
+                            <ogc:Literal>atm</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2879,7 +2879,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>bank</ogc:PropertyName>
+                            <ogc:Literal>bank</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2903,7 +2903,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>bench</ogc:PropertyName>
+                            <ogc:Literal>bench</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2925,7 +2925,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>drinking_water</ogc:PropertyName>
+                            <ogc:Literal>drinking_water</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2941,7 +2941,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>emergency_phone</ogc:PropertyName>
+                            <ogc:Literal>emergency_phone</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2957,7 +2957,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>fountain</ogc:PropertyName>
+                            <ogc:Literal>fountain</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2973,7 +2973,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>hunting_stand</ogc:PropertyName>
+                            <ogc:Literal>hunting_stand</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -2989,7 +2989,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>kindergarden</ogc:PropertyName>
+                            <ogc:Literal>kindergarden</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3005,7 +3005,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>post_office</ogc:PropertyName>
+                            <ogc:Literal>post_office</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3021,7 +3021,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>shelter</ogc:PropertyName>
+                            <ogc:Literal>shelter</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3037,7 +3037,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>swimming_pool</ogc:PropertyName>
+                            <ogc:Literal>swimming_pool</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3054,7 +3054,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>townhall</ogc:PropertyName>
+                            <ogc:Literal>townhall</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3080,7 +3080,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>toilets</ogc:PropertyName>
+                            <ogc:Literal>toilets</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3097,7 +3097,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>shower</ogc:PropertyName>
+                            <ogc:Literal>shower</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3114,7 +3114,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>vending_machine</ogc:PropertyName>
+                            <ogc:Literal>vending_machine</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3130,7 +3130,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>veterinary</ogc:PropertyName>
+                            <ogc:Literal>veterinary</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3146,7 +3146,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>waste_basket</ogc:PropertyName>
+                            <ogc:Literal>waste_basket</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3162,7 +3162,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>money_transfert</ogc:PropertyName>
+                            <ogc:Literal>money_transfert</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3178,7 +3178,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>gambling</ogc:PropertyName>
+                            <ogc:Literal>gambling</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3194,7 +3194,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>grave_yard</ogc:PropertyName>
+                            <ogc:Literal>grave_yard</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3210,7 +3210,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>cinema</ogc:PropertyName>
+                            <ogc:Literal>cinema</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3226,7 +3226,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>social_facility</ogc:PropertyName>
+                            <ogc:Literal>social_facility</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3242,7 +3242,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>dentist</ogc:PropertyName>
+                            <ogc:Literal>dentist</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3258,7 +3258,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>place_of_worship</ogc:PropertyName>
+                            <ogc:Literal>place_of_worship</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3304,7 +3304,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>bakery</ogc:PropertyName>
+                            <ogc:Literal>bakery</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3320,7 +3320,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>marketplace</ogc:PropertyName>
+                            <ogc:Literal>marketplace</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3337,7 +3337,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>supermarket</ogc:PropertyName>
+                            <ogc:Literal>supermarket</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3354,7 +3354,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>car_repair</ogc:PropertyName>
+                            <ogc:Literal>car_repair</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3371,7 +3371,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>beverages</ogc:PropertyName>
+                            <ogc:Literal>beverages</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3388,7 +3388,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>mobile_phone</ogc:PropertyName>
+                            <ogc:Literal>mobile_phone</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3405,7 +3405,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>car_parts</ogc:PropertyName>
+                            <ogc:Literal>car_parts</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3422,7 +3422,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>doityourself</ogc:PropertyName>
+                            <ogc:Literal>doityourself</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3439,7 +3439,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>beauty</ogc:PropertyName>
+                            <ogc:Literal>beauty</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3456,7 +3456,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>hairdresser</ogc:PropertyName>
+                            <ogc:Literal>hairdresser</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3473,7 +3473,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>funeral_directors</ogc:PropertyName>
+                            <ogc:Literal>funeral_directors</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3490,7 +3490,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>dry_cleaning</ogc:PropertyName>
+                            <ogc:Literal>dry_cleaning</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3507,7 +3507,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>clothes</ogc:PropertyName>
+                            <ogc:Literal>clothes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3524,7 +3524,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>bicycle</ogc:PropertyName>
+                            <ogc:Literal>bicycle</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3541,7 +3541,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>motorcycle</ogc:PropertyName>
+                            <ogc:Literal>motorcycle</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3558,7 +3558,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>photo</ogc:PropertyName>
+                            <ogc:Literal>photo</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3575,7 +3575,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>tailor</ogc:PropertyName>
+                            <ogc:Literal>tailor</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3592,7 +3592,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
-                            <ogc:PropertyName>computer</ogc:PropertyName>
+                            <ogc:Literal>computer</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3636,7 +3636,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
-                            <ogc:PropertyName>beach</ogc:PropertyName>
+                            <ogc:Literal>beach</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3661,7 +3661,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
-                            <ogc:PropertyName>coastline</ogc:PropertyName>
+                            <ogc:Literal>coastline</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -3702,7 +3702,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>residential</ogc:PropertyName>
+                            <ogc:Literal>residential</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3726,7 +3726,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>retail</ogc:PropertyName>
+                            <ogc:Literal>retail</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3748,7 +3748,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>commercial</ogc:PropertyName>
+                            <ogc:Literal>commercial</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3771,7 +3771,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>military</ogc:PropertyName>
+                            <ogc:Literal>military</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3929,7 +3929,6 @@
 
 
 
-
                 <!--area[waterway][waterway!=dam]:closed-->
                 <se:Rule>
                     <ogc:Filter>
@@ -3938,7 +3937,7 @@
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:PropertyName>dam</ogc:PropertyName>
+                            <ogc:Literal>dam</ogc:Literal>
                         </ogc:PropertyIsNotEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3955,14 +3954,12 @@
                 </se:Rule>
 
 
-
-
                 <!--area[natural=water]:closed-->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
-                            <ogc:PropertyName>water</ogc:PropertyName>
+                            <ogc:Literal>water</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -3986,7 +3983,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:PropertyName>dam</ogc:PropertyName>
+                            <ogc:Literal>dam</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -4033,7 +4030,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
-                            <ogc:PropertyName>reservoir_covered</ogc:PropertyName>
+                            <ogc:Literal>reservoir_covered</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4044,8 +4041,9 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <se:SvgParameter name="stroke-dasharray">4 2</SvgParameter>  <!--Svg = dashes; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <!--
+                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes; 
+                            <se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4058,7 +4056,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>reservoir</ogc:PropertyName>
+                            <ogc:Literal>reservoir</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4083,7 +4081,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>forest</ogc:PropertyName>
+                            <ogc:Literal>forest</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4106,7 +4104,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
-                            <ogc:PropertyName>wood</ogc:PropertyName>
+                            <ogc:Literal>wood</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4129,7 +4127,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>park</ogc:PropertyName>
+                            <ogc:Literal>park</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4153,7 +4151,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>garden</ogc:PropertyName>
+                            <ogc:Literal>garden</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4176,7 +4174,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>pitch</ogc:PropertyName>
+                            <ogc:Literal>pitch</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4199,7 +4197,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>recreation_ground</ogc:PropertyName>
+                            <ogc:Literal>recreation_ground</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                 	<se:PolygonSymbolizer>
@@ -4264,7 +4262,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>parking</ogc:PropertyName>
+                            <ogc:Literal>parking</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4287,7 +4285,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:PropertyName>school</ogc:PropertyName>
+                            <ogc:Literal>school</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4309,7 +4307,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>public_transport</ogc:PropertyName>
-                            <ogc:PropertyName>pay_scale_area</ogc:PropertyName>
+                            <ogc:Literal>pay_scale_area</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4330,7 +4328,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
-                            <ogc:PropertyName>pier</ogc:PropertyName>
+                            <ogc:Literal>pier</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -4350,16 +4348,18 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
-                            <ogc:PropertyName>pier</ogc:PropertyName>
+                            <ogc:Literal>pier</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>floating</ogc:PropertyName>
-                            <ogc:PropertyName>yes</ogc:PropertyName>
+                            <ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-dasharray">4 2</SvgParameter>  <!--Svg = dashes; -->
+                            <!--
+                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes;
+                            -->
                             <se:SvgParameter name="stroke">#444</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>	
@@ -4371,7 +4371,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>marina</ogc:PropertyName>
+                            <ogc:Literal>marina</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4393,7 +4393,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>slipway</ogc:PropertyName>
+                            <ogc:Literal>slipway</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -4413,7 +4413,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
-                            <ogc:PropertyName>golf_course</ogc:PropertyName>
+                            <ogc:Literal>golf_course</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4451,8 +4451,9 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000066</se:SvgParameter>  <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>  <!--Svg = width; -->
-                            <se:SvgParameter name="stroke-dasharray">24,4, 4, 4</SvgParameter>  <!--Svg = dashes; -->
-        
+                            <!--
+                            <se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>  Svg = dashes; 
+                            -->
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -4495,7 +4496,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
-                            <ogc:PropertyName>cementery</ogc:PropertyName>
+                            <ogc:Literal>cementery</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -4511,11 +4512,6 @@
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
-    
-    
             </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer> 
