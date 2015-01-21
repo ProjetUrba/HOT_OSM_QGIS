@@ -55,7 +55,7 @@
                 <se:Rule>  <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>highway</ogc:PropertyName>
+                            <ogc:PropertyName>*</ogc:PropertyName>
                             <ogc:Literal>trunk</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
@@ -676,7 +676,7 @@
             <!-- Surface/Smoothness -->
             <!-- Default, for values "unpaved" -->
 
-
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -689,7 +689,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
+                -->
             
                 <se:Rule>
                     <ogc:Filter>
@@ -996,7 +996,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-
+                <!--
                 <se:Rule> <!-- way[is_prop_set("prop_path")] -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1010,7 +1010,8 @@
                         <se:Font>
                             <se:SvgParameter name="font-size">12</se:SvgParameter>  
                         </se:Font>
-                        <!--
+                        
+                        <
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  CSS = text-position: line;
                             <se:PointPlacement>
@@ -1024,10 +1025,11 @@
                                 </se:Displacement>
                             </se:PointPlacement>  
                         </se:LabelPlacement>
-                        -->
+                        
                     </se:TextSymbolizer>
                     <!-- text: auto; n'a pas été mis en .se -->
                 </se:Rule> 
+                -->
 
         
              <!-- Under construction -->
@@ -1535,7 +1537,7 @@
                             -->
                         </se:TextSymbolizer>
                 </se:Rule>
-        
+                <!--
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1570,7 +1572,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
+                -->
             <!-- Aeroways -->
     
                 <se:Rule>  <!-- way[aeroway=aerodrome]:closed -->
@@ -1862,7 +1864,7 @@
                 </se:Rule>
         
             <!-- Barriers -->
-    
+                <!--
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1876,7 +1878,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
+                -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2127,7 +2129,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
+                <!--
                 <se:Rule>  <!-- way[tunnel=yes][!waterway]::bridge1 -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2164,7 +2166,7 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-    
+                -->
     
 
 
@@ -2177,6 +2179,7 @@
 			
 			<!-- How to convert css in se -->
 			<!--  http://boundlessgeo.com/2012/11/geoserver-css-module-style-in-style/ -->
+			    <!--
 				<se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2204,7 +2207,7 @@
                        
                     </se:TextSymbolizer>
 				</se:Rule>
-				
+				-->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3270,6 +3273,7 @@
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				<!--
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3300,6 +3304,7 @@
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				-->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3611,6 +3616,7 @@
 
 
                 <!-- area[natural]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3629,7 +3635,7 @@
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
+                -->
 
                 <!-- area[natural=beach]:closed -->
                 <se:Rule>
@@ -3672,7 +3678,7 @@
                     </se:LineSymbolizer>	
                 </se:Rule>
 
-
+                <!--
 
                 <!-- area[landuse]:closed -->
                 <se:Rule>
@@ -3689,11 +3695,11 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#444444</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-
+                -->
 
 
 
@@ -3792,6 +3798,7 @@
 
 
                 <!-- area[leisure]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3809,10 +3816,11 @@
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-
+                -->
 
 
                 <!-- area[tourism]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3827,10 +3835,11 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#F7CECE</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
@@ -3838,6 +3847,7 @@
 
 
                 <!-- area[historic]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3852,13 +3862,15 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
                 <!-- area[ruins]:closed  -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3873,16 +3885,18 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
 
 
                 <!-- area[military]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3897,16 +3911,18 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#D6D6D6</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
 
 
                 <!-- area[building]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3921,15 +3937,17 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#D58C8C</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
 
                 <!--area[waterway][waterway!=dam]:closed-->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3948,10 +3966,11 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
                 <!--area[natural=water]:closed-->
@@ -4002,6 +4021,7 @@
 
 
                 <!-- area[man_made]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -4016,10 +4036,11 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>    <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:SvgParameter name="small_area">true</se:SvgParameter> 
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
@@ -4215,6 +4236,7 @@
 
 
                 <!--area[amenity]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -4232,10 +4254,12 @@
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
                 <!-- area[shop]:closed -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -4253,6 +4277,7 @@
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
+                -->
 
 
 
@@ -4344,6 +4369,7 @@
 
 
                 <!-- way[man_made=pier][floating=yes] -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -4357,13 +4383,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <!--
+                            
                             <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes;
-                            -->
+                            
                             <se:SvgParameter name="stroke">#444</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
+                -->
                 <!-- pas pris en compte : "z-index: 5;" -->
 
                 <!-- area[leisure=marina]:closed -->
@@ -4441,6 +4468,7 @@
                 -->
 
                 <!-- way[boundary] -->
+                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -4451,12 +4479,13 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000066</se:SvgParameter>  <!--Svg = color; -->
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>  <!--Svg = width; -->
-                            <!--
+                            <
                             <se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>  Svg = dashes; 
-                            -->
+                            
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
+                -->
                 <!-- pas pris en compte : "z-index: 5;" -->
 
                 <!-- way[boundary=national_park]           {
