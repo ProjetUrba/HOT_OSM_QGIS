@@ -23,7 +23,7 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/hotel-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/hotel-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>

@@ -9,6 +9,11 @@
     <NamedLayer>
         <se:Name>se 1.1 for OSM HOT</se:Name>
         <se:Title>se 1.1 for OSM HOT</se:Title>
+		
+		<!-- Coded into .sld from HDM.mapcss -->
+		
+		<!-- Non transformé du mapcss en sld : chercher mot-clé PROBLEME -->
+		
         <!-- A FAIRE
             canvas {
             fill-color: #f7f6f1;
@@ -51,7 +56,7 @@
         <UserStyle>
             <se:FeatureTypeStyle>
         
-        
+				<!-- way[highway=trunk] -->
                 <se:Rule>  <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -90,6 +95,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
 
+				<!-- way[highway=trunk_link] -->
                 <se:Rule> <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -133,7 +139,7 @@
                 text: auto;
             -->
     
-    
+				<!-- way[highway=motorway] -->
                 <se:Rule> <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -171,7 +177,8 @@
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
-    
+				
+				<!-- way[highway=motorway_link] -->
                 <se:Rule> <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -210,7 +217,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
 
-        
+				<!-- way[highway=primary] -->
                 <se:Rule>  <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -249,6 +256,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=primary_link] -->
                 <se:Rule>  <!-- DANS 3 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -287,7 +295,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[highway=secondary] -->
                 <se:Rule> <!-- DANS 2 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -326,6 +334,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=secondary_link] -->
                 <se:Rule> <!-- DANS 2 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -364,6 +373,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
 
+				<!-- way[highway=tertiary] -->
                 <se:Rule>  <!-- DANS 2 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -402,6 +412,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=tertiary_link] -->
                 <se:Rule>  <!-- DANS 2 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -440,7 +451,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[highway=unclassified] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -479,7 +490,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
         
-
+				<!-- way[highway=residential] -->
                 <se:Rule> <!-- DANS 2 BLOCS DIFFERENTS EN .mapcss -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -518,6 +529,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
 
+				<!-- way[narrow=yes] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -543,6 +555,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=service] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -576,7 +589,7 @@
             }-->
     
             <!-- NON MIS EN .se CAR INCOHERENCE DU stroke AVEC LE BLOC JUSTE AU-DESSUS !!! -->
-    
+				<!-- way[highway=service][service=parking_aisle] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -606,6 +619,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
+				<!-- way[highway=service][service=alley] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -631,7 +645,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-    
+				<!-- way[highway=road] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -652,6 +666,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
     
+				<!-- way[highway=living_street] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -676,7 +691,8 @@
             <!-- Surface/Smoothness -->
             <!-- Default, for values "unpaved" -->
 
-                <!--
+                <!-- way[surface] -->
+				<!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -691,6 +707,7 @@
                 </se:Rule>
                 -->
             
+				<!-- way[surface=paved] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -705,6 +722,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[surface=asphalt] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -719,6 +737,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[surface=paving_stones] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -733,6 +752,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=trunk] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -747,6 +767,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=trunk_link] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -761,6 +782,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=motorway] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -775,6 +797,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=motorway_link] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -789,7 +812,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-        
+				<!-- way[smoothness=intermediate] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -804,7 +827,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[smoothness=bad] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -822,10 +845,11 @@
     
     
             <!-- Road areas -->
-        
+				
+				<!-- way[highway=pedestrian]!:closed -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>   	<!-- way[highway=pedestrian]!:closed -->
+                        <ogc:PropertyIsEqualTo>   	<!-- way[highway=pedestrian]!:closed PROBLEME -->
                             <ogc:PropertyName>highway</ogc:PropertyName>
                             <ogc:Literal>pedestrian</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
@@ -835,7 +859,7 @@
                             <se:SvgParameter name="color">#ddddee</se:SvgParameter>  
                             <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
- <se:SvgParameter name="stroke-dasharray">2,4,2</se:SvgParameter> 
+							<se:SvgParameter name="stroke-dasharray">2,4,2</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
@@ -847,10 +871,10 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-    
+				<!-- area[highway=pedestrian]:closed -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo> <!-- area[highway=pedestrian]:closed -->
+                        <ogc:PropertyIsEqualTo> <!-- area[highway=pedestrian]:closed PROBLEME-->
                             <ogc:PropertyName>highway</ogc:PropertyName>
                             <ogc:Literal>pedestrian</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
@@ -871,6 +895,7 @@
     
             <!-- Paths -->
     
+				<!-- area[highway=steps] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -887,7 +912,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-    
+				<!-- area[highway=footway] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -905,9 +930,9 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-    
+				<!-- way[highway=footway][bicycle=yes]::bike -->
                 <se:Rule>
-                    <ogc:Filter> <!-- way[highway=footway][bicycle=yes]::bike -->
+                    <ogc:Filter> <!-- way[highway=footway][bicycle=yes]::bike PROBLEME-->
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
                             <ogc:Literal>footway</ogc:Literal>
@@ -925,7 +950,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[highway=bridleway] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -943,7 +968,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[highway=track] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -961,7 +986,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[highway=path] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -979,7 +1004,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
-
+				<!-- way[highway=cycleway] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -997,8 +1022,9 @@
                     </se:LineSymbolizer>
                 </se:Rule>
 
+				<!-- way[is_prop_set("prop_path")] -->
                 <!--
-                <se:Rule> way[is_prop_set("prop_path")] 
+                <se:Rule> <!-- way[is_prop_set("prop_path")] PROBLEME
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>is_prop_set("prop_path")</ogc:PropertyName>
@@ -1035,6 +1061,7 @@
         
              <!-- Under construction -->
     
+				<!-- way[highway=proposed] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1051,6 +1078,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[highway=construction] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1076,6 +1104,7 @@
         
             <!-- Railways -->
     
+				<!-- way[railway=rail] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1093,7 +1122,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[railway=rail]::stroke-dasharray --> 
+				<!-- way[railway=rail]::stroke-dasharray --> 
+                <se:Rule>  <!-- way[railway=rail]::stroke-dasharray PROBLEME --> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1110,6 +1140,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[construction=rail] -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1125,8 +1156,9 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
-                <se:Rule> <!-- way[construction=rail]::inner -->
+				
+				<!-- way[construction=rail]::inner -->
+                <se:Rule> <!-- way[construction=rail]::inner PROBLEME-->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
@@ -1141,7 +1173,8 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
+				
+				<!-- way[railway=platform] -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1157,6 +1190,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[railway=subway] -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1172,7 +1206,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule> <!-- way[railway=subway]::stroke-dasharray -->
+                <!-- way[railway=subway]::stroke-dasharray -->
+				<se:Rule> <!-- way[railway=subway]::stroke-dasharray PROBLEME-->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1188,6 +1223,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[construction=subway] -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1204,7 +1240,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[construction=subway]::stroke-dasharray  -->
+				<!-- way[construction=subway]::stroke-dasharray  -->
+                <se:Rule>  <!-- way[construction=subway]::stroke-dasharray PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
@@ -1220,6 +1257,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[railway=disused] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1236,6 +1274,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[railway=abandoned] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1252,7 +1291,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[railway=disused]::stroke-dasharray -->
+                <!-- way[railway=disused]::stroke-dasharray -->
+				<se:Rule>  <!-- way[railway=disused]::stroke-dasharray PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1268,7 +1308,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[railway=abandoned]::stroke-dasharray -->
+                <!-- way[railway=abandoned]::stroke-dasharray -->
+				<se:Rule>  <!-- way[railway=abandoned]::stroke-dasharray PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1284,6 +1325,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[railway=tram] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1301,6 +1343,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[construction=tram] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1324,6 +1367,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[railway=light_rail] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1339,7 +1383,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[railway=light_rail]::stroke-dasharray -->
+                <!-- way[railway=light_rail]::stroke-dasharray -->
+				<se:Rule>  <!-- way[railway=light_rail]::stroke-dasharray PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1355,6 +1400,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[construction=light_rail] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1371,7 +1417,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[construction=light_rail]::stroke-dasharray -->
+                <!-- way[construction=light_rail]::stroke-dasharray -->
+				<se:Rule>  <!-- way[construction=light_rail]::stroke-dasharray PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
@@ -1387,6 +1434,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- node[traffic_calming=bump] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1397,7 +1445,7 @@
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bump.png" />
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bump.png" />
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
@@ -1406,6 +1454,7 @@
         
             <!-- Waterways -->
     
+				<!-- way[waterway=river] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1440,6 +1489,7 @@
                         </se:TextSymbolizer>
                 </se:Rule>
         
+				<!-- way[waterway=canal] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1474,6 +1524,7 @@
                         </se:TextSymbolizer>
                 </se:Rule>
         
+				<!-- way[waterway=stream] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1508,6 +1559,7 @@
                         </se:TextSymbolizer>
                 </se:Rule>
         
+				<!-- way[waterway=drain] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1538,6 +1590,8 @@
                             -->
                         </se:TextSymbolizer>
                 </se:Rule>
+				
+				<!-- way[waterway][tunnel=yes] -->
                 <!--
                 <se:Rule>  
                     <ogc:Filter>
@@ -1555,7 +1609,10 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
+				-->
+				
+				<!-- way[waterway][intermittent=yes] -->   
+				<!--
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1574,9 +1631,12 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 -->
+				
+				
             <!-- Aeroways -->
     
-                <se:Rule>  <!-- way[aeroway=aerodrome]:closed -->
+                <!-- way[aeroway=aerodrome]:closed -->
+				<se:Rule>  <!-- way[aeroway=aerodrome]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1597,7 +1657,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z-15[aeroway=aerodrome]:closed -->
+                <!-- way|z-15[aeroway=aerodrome]:closed -->
+				<se:Rule>  <!-- way|z-15[aeroway=aerodrome]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1612,7 +1673,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[aeroway=taxiway]!:closed -->
+                <!-- way[aeroway=taxiway]!:closed -->
+				<se:Rule>  <!-- way[aeroway=taxiway]!:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1633,7 +1695,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- area[aeroway=taxiway]:closed -->
+                <!-- area[aeroway=taxiway]:closed -->
+				<se:Rule>  <!-- area[aeroway=taxiway]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1651,7 +1714,8 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z17-[aeroway=runway]!:closed -->
+                <!-- way|z17-[aeroway=runway]!:closed -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1672,7 +1736,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::aa -->
+                <!-- way|z17-[aeroway=runway]!:closed::aa -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::aa PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1688,7 +1753,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::bb -->
+                <!-- way|z17-[aeroway=runway]!:closed::bb -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::bb PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1703,7 +1769,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::cc -->
+                <!-- way|z17-[aeroway=runway]!:closed::cc -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::cc PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1719,7 +1786,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::dd -->
+                <!-- way|z17-[aeroway=runway]!:closed::dd -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::dd PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1734,7 +1802,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::ee -->
+                <!-- way|z17-[aeroway=runway]!:closed::ee -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::ee PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1750,7 +1819,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed -->
+                <!-- way|z15-16[aeroway=runway]!:closed -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1765,7 +1835,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::aa -->
+                <!-- way|z15-16[aeroway=runway]!:closed::aa -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::aa PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1781,7 +1852,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::bb -->
+                <!-- way|z15-16[aeroway=runway]!:closed::bb -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::bb PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1796,7 +1868,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::cc -->
+                <!-- way|z15-16[aeroway=runway]!:closed::cc -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::cc PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1812,7 +1885,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way|z-14[aeroway=runway]!:closed -->
+                <!-- way|z-14[aeroway=runway]!:closed -->
+				<se:Rule>  <!-- way|z-14[aeroway=runway]!:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1827,7 +1901,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- area[aeroway=runway]:closed -->
+                <!-- area[aeroway=runway]:closed -->
+				<se:Rule>  <!-- area[aeroway=runway]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1845,7 +1920,8 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- area[aeroway=apron]:closed -->
+                <!-- area[aeroway=apron]:closed -->
+				<se:Rule>  <!-- area[aeroway=apron]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1865,8 +1941,8 @@
                 </se:Rule>
         
             <!-- Barriers -->
-                <!--
-                <se:Rule> 
+                <!-- way[barrier] -->
+				<se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
@@ -1879,7 +1955,8 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                -->
+                
+				<!-- way[barrier=fence] -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1896,6 +1973,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[barrier=wall] -->
                 <se:Rule> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1913,6 +1991,7 @@
         
             <!-- Power -->
     
+				<!-- way[power=line] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1936,6 +2015,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
+				<!-- way[power=minor_line] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -1959,7 +2039,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- area[power=station]:closed -->
+                <!-- area[power=station]:closed -->
+				<se:Rule>  <!-- area[power=station]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
@@ -1977,7 +2058,8 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- area[power=generator]:closed -->
+                <!-- area[power=generator]:closed -->
+				<se:Rule>  <!-- area[power=generator]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
@@ -1999,6 +2081,7 @@
         
             <!-- Leisure -->
     
+				<!-- way[golf=hole] -->
                 <se:Rule>  
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2021,7 +2104,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- area[leisure=sports_centre]:closed  -->
+                <!-- area[leisure=sports_centre]:closed  -->
+				<se:Rule>  <!-- area[leisure=sports_centre]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -2041,7 +2125,8 @@
         
             <!-- Physical decoration -->
     
-                <se:Rule>  <!-- way[bridge=yes]::bridge1 -->
+                <!-- way[bridge=yes]::bridge1 -->
+				<se:Rule>  <!-- way[bridge=yes]::bridge1 PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2056,7 +2141,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[bridge=viaduct]::bridge1 -->
+                <!-- way[bridge=viaduct]::bridge1 -->
+				<se:Rule>  <!-- way[bridge=viaduct]::bridge1 PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2071,7 +2157,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[bridge=suspension]::bridge1 -->
+                <!-- way[bridge=suspension]::bridge1 PROBLEME -->
+				<se:Rule>  <!-- way[bridge=suspension]::bridge1 -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2086,7 +2173,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[bridge=yes]::bridge2 -->
+                <!-- way[bridge=yes]::bridge2 -->
+				<se:Rule>  <!-- way[bridge=yes]::bridge2 PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2101,7 +2189,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[bridge=viaduct]::bridge2 -->
+                <!-- way[bridge=viaduct]::bridge2 -->
+				<se:Rule>  <!-- way[bridge=viaduct]::bridge2 PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2116,7 +2205,8 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <se:Rule>  <!-- way[bridge=suspension]::bridge2 -->
+                <!-- way[bridge=suspension]::bridge2 -->
+				<se:Rule>  <!-- way[bridge=suspension]::bridge2 PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2130,8 +2220,10 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-                <!--
-                <se:Rule>   way[tunnel=yes][!waterway]::bridge1 
+                
+				<!-- way[tunnel=yes][!waterway]::bridge1 -->
+				<!--
+                <se:Rule>   way[tunnel=yes][!waterway]::bridge1  PROBLEME
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -2148,8 +2240,11 @@
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
-        
-                <se:Rule>   way[tunnel=yes][!waterway]::bridge2 
+				-->
+				
+				<!-- way[tunnel=yes][!waterway]::bridge2 -->
+				<!--
+                <se:Rule>   way[tunnel=yes][!waterway]::bridge2 PROBLEME
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -2168,47 +2263,51 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 -->
-    
+<!--				
+/****************
+ * core_pois.css
+ ****************/
+ -->
+				<!-- PROBLEME    => Pas du tout passé en sld !!
+				node {
+					text-anchor-horizontal: center;
+					text-anchor-vertical: below;
+				}
 
+				node|z-15[name], node|z-15[operator], node|z-15[brand], node|z-15[capacity] {
+				   text: eval("");  
+				}
 
+				node|z16-[name], node|z16-[operator], node|z16-[brand], node|z-16[capacity] {
+					icon-image: "icons/poi.png";
+					font-family: Open Sans;
+					font-size: 9; 
+					text: auto;
+					text-halo-color: white; 
+					text-halo-radius: 1.5;
+				}
+				node|z18-[name], node|z18-[operator], node|z18-[brand], node|z18-[capacity] {
+					font-size: 11; 
+					text-halo-radius: 1.8;
+				}
+				node|z19-[name], node|z19-[operator], node|z19-[brand], node|z19-[capacity] {
+					font-size: 12; 
+					text-halo-radius: 1.9;
+				}
 
-<!--       PARTIE VINCENT    -->
-
-
-
-
-			
-			<!-- How to convert css in se -->
-			<!--  http://boundlessgeo.com/2012/11/geoserver-css-module-style-in-style/ -->
-			    <!--
-				<se:Rule>
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>place</ogc:PropertyName>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-				    <se:PointSymbolizer>
-				        <se:Graphic>
-                            <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/place.png" />          
-                                <se:Format>image/png</se:Format>
-                            </se:ExternalGraphic>
-                              Add informations about the text !!!!!  
-                        </se:Graphic>
-				    </se:PointSymbolizer>
-                    <se:TextSymbolizer>
-                        <se:Label>
-                            <ogc:PropertyName>name</ogc:PropertyName>
-                        </se:Label>
-                        <se:Font>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>  
-                            <se:SvgParameter name="font-family">Open Sans</se:SvgParameter>  
-                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>  
-                        </se:Font>
-                       
-                    </se:TextSymbolizer>
-				</se:Rule>
+				node[place] {
+					icon-image: "icons/place.png";
+					font-family: Open Sans;
+					text: auto;
+					text-halo-color: white;
+					text-halo-radius: 2;
+					font-size: 10;
+					font-weight: bold;
+					z-index: 20;
+				}
 				-->
+				
+				<!-- node[amenity=telephone] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2220,19 +2319,17 @@
 				          <!-- <se:Geometry></se:Geometry>
 				          We don't need a geometry I think !
 				           -->
-				       
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/telephone.png" />          <!--  WARNING !! MISSING ICONS :    CSS =  icon-image: "icons/telephone.png"; -->
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/telephone.png" />          <!--  WARNING !! MISSING ICONS :    CSS =  icon-image: "icons/telephone.png"; -->
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
-                          
                         </se:Graphic>
-           
                         <!-- <VendorOption name="labelObstacle">true</VendorOption>  -->
 				    </se:PointSymbolizer>
 				</se:Rule>
 
+				<!-- node[barrier=cattle_grid] -->
 				<se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2243,12 +2340,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/cattle_grid.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/cattle_grid.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=guesthouse] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2259,12 +2358,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_bed_and_breakfast.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_bed_and_breakfast.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=alpine_hut] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2275,12 +2376,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_alpinehut.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_alpinehut.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=camp_site] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2291,12 +2394,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_camping.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_camping.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=caravan_site] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2307,12 +2412,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_caravan_park.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_caravan_park.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=chalet] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2323,12 +2430,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_chalet.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_chalet.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=guest_house] -->
 				<se:Rule>
 				<ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2339,12 +2448,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_bed_and_breakfast.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_bed_and_breakfast.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=bed_and_breakfast] -->
 				<se:Rule>
 				<ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2355,12 +2466,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_bed_and_breakfast.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_bed_and_breakfast.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=hotel] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2371,12 +2484,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/hotel-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/hotel-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=hostel] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2387,12 +2502,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_youth_hostel.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_youth_hostel.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[tourism=motel] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2403,12 +2520,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_motel.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_motel.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=fire_station] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2419,12 +2538,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/fire_station-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/fire_station-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=police] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2435,12 +2556,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/police-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/police-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=post_box] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2451,12 +2574,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/amenity_post_box.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/amenity_post_box.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=recycling] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2467,12 +2592,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/amenity_recycling.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/amenity_recycling.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=bollard] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2483,12 +2610,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_bollard.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_bollard.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=gate] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2499,12 +2628,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/gate.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/gate.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[highway=gate] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2515,12 +2646,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/gate.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/gate.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=stile] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2531,12 +2664,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_stile.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_stile.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[highway=stile] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2547,12 +2682,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_stile.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_stile.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=toll_booth] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2563,12 +2700,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_toll_booth.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_toll_booth.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=lift_gate] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2579,12 +2718,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_lift_gate.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_lift_gate.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=kissing_gate] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2595,12 +2736,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_kissing_gate.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_kissing_gate.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=cycle_barrier] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2611,12 +2754,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_cycle_barrier.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_cycle_barrier.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=block] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2627,12 +2772,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/road_block.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/road_block.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[barrier=cattle_grid] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2643,18 +2790,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/barrier_cattle_grid.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/barrier_cattle_grid.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 
-
-
-
-
-
+				<!-- node[amenity=school] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2665,12 +2808,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/school-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/school-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=university] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2681,12 +2826,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/university-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/university-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=library] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2697,12 +2844,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/library.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/library.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=arts_center] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2713,12 +2862,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/arts_centre-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/arts_centre-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=bar] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2729,12 +2880,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bar-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bar-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=cafe] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2745,12 +2898,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/cafe-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/cafe-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=fast_food] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2761,12 +2916,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/food_fastfood.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/food_fastfood.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=pub] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2777,12 +2934,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/pub.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/pub.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=restaurant] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2793,12 +2952,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/restaurant-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/restaurant-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=clinic] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2809,12 +2970,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/hospital-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/hospital-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=hospital] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2825,12 +2988,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/hospital-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/hospital-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=pharmacy] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2841,12 +3006,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/pharmacy-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/pharmacy-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=studio] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2857,12 +3024,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/studio-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/studio-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=atm] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2873,12 +3042,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/atm-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/atm-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=bank] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2889,21 +3060,18 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bank-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bank-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
-				
-				
-				
-				
-				
-				<!--  Attention pb dans cette amenity z19-     -->
 			
-				<se:Rule>
+				<!-- More Amenities -->
+
+				<!-- node|z19-[amenity=bench] -->
+				<se:Rule>  <!-- node|z19-[amenity=bench] PROBLEME -->
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -2913,18 +3081,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bench-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bench-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
-				
-				
-				
-				
-				
+				<!-- node[amenity=drinking_water] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2935,12 +3099,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/drinking_water-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/drinking_water-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=emergency_phone] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2951,12 +3117,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/emergency-telephone-16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/emergency-telephone-16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=fountain] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2967,12 +3135,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/amenity_fountain2.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/amenity_fountain2.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=hunting_stand] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2983,12 +3153,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/sport_shooting.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/sport_shooting.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=kindergarden] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2999,12 +3171,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/kindergarten-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/kindergarten-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=post_office] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3015,12 +3189,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/amenity_post_office.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/amenity_post_office.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=shelter] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3031,12 +3207,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/accommodation_shelter2.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/accommodation_shelter2.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=swimming_pool] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3047,13 +3225,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/sport_swimming_outdoor.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/sport_swimming_outdoor.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 
+				<!-- node[amenity=townhall] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3064,7 +3243,7 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/townhall-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/townhall-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
@@ -3076,10 +3255,10 @@
                         <se:Font>
                             <se:SvgParameter name="font-size">10</se:SvgParameter>  
                         </se:Font>
-                       
                     </se:TextSymbolizer>
 				</se:Rule>
 				
+				<!-- node[amenity=toilets] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3090,13 +3269,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/toilets-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/toilets-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[amenity=shower] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3107,13 +3287,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/shower.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/shower.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[amenity=vending_machine] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3124,12 +3305,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/shopping_vending_machine.n.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/shopping_vending_machine.n.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=veterinary] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3140,12 +3323,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/health_veterinary.n.8E7409.16.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/health_veterinary.n.8E7409.16.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=waste_basket] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3156,28 +3341,32 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/waste_basket-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/waste_basket-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=money_transfer] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
-                            <ogc:Literal>money_transfert</ogc:Literal>
+                            <ogc:Literal>money_transfer</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/money_transfer-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/money_transfer-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=gambling] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3188,12 +3377,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/gambling-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/gambling-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=grave_yard] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3204,12 +3395,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/grave_yard-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/grave_yard-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=cinema] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3220,12 +3413,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/cinema-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/cinema-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=social_facility] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3236,12 +3431,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/social_facility-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/social_facility-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[amenity=dentist] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3252,12 +3449,16 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/dentist-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/dentist-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- Places of worship -->
+				
+				<!-- node[amenity=place_of_worship] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3268,13 +3469,16 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/place_of_worship-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/place_of_worship-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
-				<!--
+				
+				<!-- Craft -->
+				
+				<!-- node[craft] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3284,12 +3488,16 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/craft-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/craft-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- Shops --> 
+				
+				<!-- node[shop] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3299,13 +3507,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/shop-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/shop-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
-				-->
+				
+				<!-- node[shop=bakery] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3316,12 +3525,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bakery-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bakery-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+				
+				<!-- node[shop=marketplace] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3332,13 +3543,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/marketplace-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/marketplace-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=supermarket] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3349,13 +3561,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/supermarket-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/supermarket-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=car_repair] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3366,13 +3579,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/car_repair-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/car_repair-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=beverages] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3383,13 +3597,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/baverages-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/baverages-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=mobile_phone] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3400,13 +3615,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/mobile_phone-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/mobile_phone-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=car_parts] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3417,13 +3633,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/car_parts-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/car_parts-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=doityourself] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3434,13 +3651,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/diy-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/diy-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=beauty] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3451,13 +3669,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/beauty.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/beauty.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=hairdresser] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3468,13 +3687,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bhairdresser-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bhairdresser-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=funeral_directors] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3485,13 +3705,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/funeral_directors-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/funeral_directors-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=dry_cleaning] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3502,13 +3723,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/dry_cleaning-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/dry_cleaning-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=clothes] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3519,13 +3741,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/clothes-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/clothes-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=bicycle] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3536,13 +3759,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/bickle_repair.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/bickle_repair.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=motorcycle] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3553,13 +3777,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/motorcycle_repair.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/motorcycle_repair.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=photo] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3570,13 +3795,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/photo-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/photo-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=tailor] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3587,13 +3813,14 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/tailor-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/tailor-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
 				
+				<!-- node[shop=computer] -->
 				<se:Rule>
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -3604,21 +3831,301 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="icons/computer-18.png" />          
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/computer-18.png" />          
                                 <se:Format>image/png</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>
 				</se:Rule>
+
+<!-- Lignes commentées dans le mapcss de départ				PROBLEME
+/*node[shop=alcohol] {
+    icon-image: "icons/shopping_alcohol.n.16.png";
+    z-index: 20;
+}
+node[shop=book], node[shop=books] {
+    icon-image: "icons/shopping_book.n.16.png";
+    z-index: 20;
+}
+node[shop=butcher] {
+    icon-image: "icons/shopping_butcher.n.16.png";
+    z-index: 20;
+}
+node[shop=car] {
+    icon-image: "icons/shopping_car.n.16.png";
+    z-index: 20;
+}
+node[shop=confectionery] {
+    icon-image: "icons/shopping_confectionery.n.16.png";
+    z-index: 20;
+}
+node[shop=convenience] {
+    icon-image: "icons/shopping_convenience.n.16.png";
+    z-index: 20;
+}
+node[shop=fishmonger] {
+    icon-image: "icons/shopping_fish.n.16.png";
+    z-index: 20;
+}
+node[shop=florist] {
+    icon-image: "icons/shopping_florist.n.16.png";
+    z-index: 20;
+}
+node[shop=garden_centre] {
+    icon-image: "icons/shopping_garden_centre.n.16.png";
+    z-index: 20;
+}
+node[shop=gift] {
+    icon-image: "icons/shopping_gift.n.16.png";
+    z-index: 20;
+}
+node[shop=greengrocer] {
+    icon-image: "icons/shopping_greengrocer.n.16.png";
+    z-index: 20;
+}
+node[shop=hairdresser] {
+    icon-image: "icons/shopping_hairdresser.n.16.png";
+    z-index: 20;
+}
+node[shop=hifi] {
+    icon-image: "icons/shopping_hifi.n.16.png";
+    z-index: 20;
+}
+node[shop=jewelry] {
+    icon-image: "icons/shopping_jewelry.n.16.png";
+    z-index: 20;
+}
+node[shop=kiosk] {
+    icon-image: "icons/shopping_kiosk.n.16.png";
+    z-index: 20;
+}
+node[shop=laundry] {
+    icon-image: "icons/shopping_laundrette.n.16.png";
+    z-index: 20;
+}
+node[shop=music] {
+    icon-image: "icons/shopping_music.n.16.png";
+    z-index: 20;
+}
+node[shop=toys] {
+    icon-image: "icons/shopping_toys.n.16.png";
+    z-index: 20;
+}
+-->
+
+				<!-- More Touristy Items -->
+
+<!-- Non commenté dans le mapcss, apparemment oublié de passer en sld PROBLEME
+node[tourism=artwork] {
+    icon-image: "icons/tourist_art_gallery2.n.16.png";
+    z-index: 20;
+}
+node[historic=archaeological_site] {
+    icon-image: "icons/tourist_archaeological.n.16.png";
+    z-index: 20;
+}
+node[historic=battlefield] {
+    icon-image: "icons/tourist_battlefield.n.16.png";
+    z-index: 20;
+}
+node[historic=castle] {
+    icon-image: "icons/tourist_castle.n.16.png";
+    z-index: 20;
+}
+node[historic=memorial] {
+    icon-image: "icons/tourist_memorial.n.16.png";
+    z-index: 20;
+}
+node[historic=monument] {
+    icon-image: "icons/tourist_monument.n.16.png";
+    z-index: 20;
+}
+node[tourism=museum] {
+    icon-image: "icons/tourist_museum.n.16.png";
+    z-index: 20;
+}
+node[tourism=information] {
+    icon-image: "icons/tourist_information.png";
+    z-index: 20;
+}
+node[tourism=picnic_site] {
+    icon-image: "icons/tourist_picnic.n.16.png";
+    z-index: 20;
+}
+node[historic=ruins] {
+    icon-image: "icons/tourist_ruin.n.16.png";
+    z-index: 20;
+}
+node[amenity=theatre] {
+    icon-image: "icons/tourist_theatre.n.16.png";
+    z-index: 20;
+}
+node[tourism=theme_park] {
+    icon-image: "icons/tourist_theme_park.n.16.png";
+    z-index: 20;
+}
+node[tourism=viewpoint] {
+    icon-image: "icons/tourist_view_point.n.16.png";
+    z-index: 20;
+}
+node[tourism=zoo] {
+    icon-image: "icons/tourist_zoo.n.16.png";
+    z-index: 20;
+}
+/* Transport */
+node[aeroway=aerodrome] {
+    icon-image: "icons/transport_aerodrome.n.16.png";
+    z-index: 20;
+}
+node[aeroway=gate] {
+    icon-image: "icons/transport_airport_gate.n.16.png";
+    z-index: 20;
+}
+node[aeroway=terminal] {
+    icon-image: "icons/transport_airport_terminal.n.16.png";
+    z-index: 20;
+}
+node[aeroway=helipad] {
+    icon-image: "icons/transport_helicopter_pad.n.16.png";
+    z-index: 20;
+}
+node[amenity=bus_station] {
+    icon-image: "icons/bus_station.png";
+}
+node[highway=bus_stop] {
+    icon-image: "icons/bus_stop.png";
+    z-index: 20;
+}
+node[amenity=fuel] {
+    icon-image: "icons/fuel-18.png";
+}
+node[amenity=car_wash] {
+    icon-image: "icons/transport_car_wash.n.16.png";
+    z-index: 20;
+}
+node[amenity=bicycle_parking] {
+    icon-image: "icons/transport_parking_bicycle.n.16.png";
+    z-index: 20;
+}
+node[amenity=parking] {
+    icon-image: "icons/parking.png";
+    z-index: 20;
+}
+node[amenity=ferry_terminal] {
+    icon-image: "icons/transport_port.n.16.png";
+    z-index: 20;
+}
+node[amenity=bicycle_rental] {
+    icon-image: "icons/transport_rental_bicycle.n.16.png";
+    z-index: 20;
+}
+node[amenity=car_rental] {
+    icon-image: "icons/car_rental-18.png";
+}
+node[amenity=taxi] {
+    icon-image: "icons/taxi-18.png";
+}
+node[railway=station] {
+    icon-image: "icons/railway_station.png";
+    z-index: 20;
+}
+node[railway=tram_stop] {
+    icon-image: "icons/transport_tram_stop.n.16.png";
+    z-index: 20;
+}
+node[leisure=marina] {
+    icon-image: "icons/transport_marina.n.16.png";
+    z-index: 20;
+}
+node[highway=mini_roundabout] {
+    icon-image: "icons/transport_miniroundabout_anticlockwise.n.16.png";
+    z-index: 20;
+}
+node[highway=crossing] {
+    icon-image: "icons/transport_zebracrossing.n.16.png";
+    z-index: 20;
+}
+/* Misc */
+node[leisure=playground] {
+    icon-image: "icons/amenity_playground.n.16.png";
+    z-index: 20;
+}
+node[leisure=sports_centre] {
+    icon-image: "icons/sport_leisure_centre.n.16.png";
+    z-index: 20;
+}
+node[man_made=survey_point] {
+    icon-image: "icons/manmade_lighthouse.png";
+    z-index: 20;
+}
+node[man_made=tower] {
+    icon-image: "icons/manmade_tower.png";
+    z-index: 20;
+}
+/* Yes these power stations seem a little backward - but that's seemingly what the side menu uses ATM */
+node[power=station] {
+    icon-image: "icons/power_substation.n.16.png";
+    z-index: 20;
+}
+node[power=generator] {
+    icon-image: "icons/power_station.png";
+    z-index: 20;
+}
+node[power=tower] {
+    icon-image: "icons/power_tower_high2.n.16.png";
+    z-index: 20;
+}
+node|z19-[power=pole] {
+    icon-image: "icons/power_pole.png";
+    z-index: 20;
+}
+node[waterway=weir] {
+    icon-image: "icons/transport_weir.n.16.png";
+    z-index: 20;
+}
+node[natural=tree] {
+    icon-image: "icons/tree.png";
+}
+
+
+/* Addressing */
+
+node|z-16[addr:housenumber] {
+   text: eval("");  
+}
+node|z17-[addr:housenumber] {
+    symbol-shape: circle;
+    symbol-size: eval((min(length(tag("addr:housenumber")), 3) * 5) + 4);
+    symbol-fill-color: white;
+    text: "addr:housenumber";
+    text-anchor-horizontal: center;
+    text-anchor-vertical: center;
+    text-offset-y: -1;
+}
+node|z17-[addr:housenumber]::hn_casing {
+    z-index: -100;
+    symbol-shape: circle;
+    symbol-size: eval((min(length(tag("addr:housenumber")), 3) * 5) + 8);
+    symbol-fill-color: black;
+}
+
+way[addr:interpolation] {
+    z-index: 5;
+    color: #B0E0E6;
+    width: 3;
+    dashes: 3,3;
+}
+-->		
+				<!--
+				/****************
+				 * core_landuse.css
+				 ****************/
+				 -->
+
+				<!-- Landuse -->
 				
-				
-				<!--  Nous en sommes à la ligne 977 du fichier .mapcss  -->
-
-
-
                 <!-- area[natural]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule>  <!-- area[natural]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -3626,20 +4133,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ADD6A5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:SvgParameter name="fill">#ADD6A5</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ADD6A5</se:SvgParameter>    Svg = color;
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width;
+                            <se:SvgParameter name="stroke">#ADD6A5</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-                -->
-
                 <!-- area[natural=beach]:closed -->
-                <se:Rule>
+                <se:Rule>  <!-- area[natural=beach]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -3648,20 +4153,16 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffdd44</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#ffdd44</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-
-
-
-
 
                 <!-- way[natural=coastline] -->
                 <se:Rule>
@@ -3673,16 +4174,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
 
-                <!--
-
-                 area[landuse]:closed 
-                <se:Rule>
+                <!-- area[landuse]:closed -->				
+				 <se:Rule> <!-- area[landuse]:closed PROBLEME -->	
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -3690,22 +4189,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#444444</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>    Svg = opacity; 
+                            <se:SvgParameter name="fill">#444444</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#444444</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#444444</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
 
                 <!-- area[landuse=residential]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=residential]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -3714,20 +4210,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#eeece1</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.05</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:SvgParameter name="fill">#eeece1</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.05</se:SvgParameter>  
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#EB6D69</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#EB6D69</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
                 <!-- area[landuse=retail]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=retail]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -3736,20 +4230,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#aa4422</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:SvgParameter name="fill">#aa4422</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#cc2222</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#cc2222</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
                 <!-- area[landuse=commercial]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=commercial]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -3758,21 +4250,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#D5C6C9</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:SvgParameter name="fill">#D5C6C9</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#D5C6C9</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#D5C6C9</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
                 <!-- area[landuse=military]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=military]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -3781,24 +4270,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ff4444</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:SvgParameter name="fill">#ff4444</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ff4444</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#ff4444</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
-
                 <!-- area[leisure]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[leisure]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -3806,21 +4290,20 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#8CD6B5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:SvgParameter name="fill">#8CD6B5</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#8CD6B5</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width;
+                            <se:SvgParameter name="stroke">#8CD6B5</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
+
 
 
                 <!-- area[tourism]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[tourism]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
@@ -3828,26 +4311,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#F7CECE</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:SvgParameter name="fill">#F7CECE</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>  
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#F7CECE</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#F7CECE</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
-
-
-
 
                 <!-- area[historic]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[historic]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>historic</ogc:PropertyName>
@@ -3855,22 +4331,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
 
                 <!-- area[ruins]:closed  -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[ruins]:closed PROBLEME  -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ruins</ogc:PropertyName>
@@ -3878,25 +4351,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
-
-
 
                 <!-- area[military]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[military]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>military</ogc:PropertyName>
@@ -3904,25 +4371,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#D6D6D6</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:SvgParameter name="fill">#D6D6D6</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#D6D6D6</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#D6D6D6</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
-
-
 
                 <!-- area[building]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[building]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>building</ogc:PropertyName>
@@ -3930,24 +4391,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#D58C8C</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity;
+                            <se:SvgParameter name="fill">#D58C8C</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#D58C8C</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#D58C8C</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
-
 
                 <!--area[waterway][waterway!=dam]:closed-->
-                <!--
-                <se:Rule>
+                <se:Rule> <!--area[waterway][waterway!=dam]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
@@ -3959,21 +4415,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>     
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
 
                 <!--area[natural=water]:closed-->
-                <se:Rule>
+                <se:Rule> <!--area[natural=water]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -3982,19 +4436,16 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-
-
-
 
                 <!-- way[waterway=dam] -->
                 <se:Rule>
@@ -4006,22 +4457,19 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
 
-
-
                 <!-- area[man_made]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[man_made]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
@@ -4029,24 +4477,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   Svg = fill-color;
-                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    Svg = fill-opacity;
+                            <se:SvgParameter name="fill">#222222</se:SvgParameter>
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
                             <se:SvgParameter name="small_area">true</se:SvgParameter> 
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
-
-
 
                 <!-- area[man_made=reservoir_covered]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[man_made=reservoir_covered]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
@@ -4055,24 +4498,21 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#222222</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
                             <!--
-                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes; 
+                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> 
                             <se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
                 <!-- area[landuse=reservoir]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=reservoir]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -4081,23 +4521,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
-
                 <!-- area[landuse=forest]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=forest]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -4106,21 +4542,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#008000</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>--> 
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
                 <!-- area[natural=wood]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[natural=wood]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -4129,21 +4563,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#008000</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
                 <!-- area[leisure=park]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[leisure=park]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -4152,22 +4584,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#44ff44</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#44ff44</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#22aa22</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#22aa22</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
                 <!-- area[leisure=garden]:closed -->
-                <se:Rule>
+                <se:Rule>  <!-- area[leisure=garden]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -4176,21 +4605,19 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#66ff44</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#66ff44</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#66ff44</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#66ff44</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
                 <!-- area[leisure=pitch]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[leisure=pitch]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -4199,21 +4626,20 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#88ff44</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#88ff44</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#88bb44</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#88bb44</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>		  	
                 <!-- Pas pris en compte : " z-index: 6;" -->
 
-
                 <!-- area[landuse=recreation_ground]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=recreation_ground]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -4222,21 +4648,17 @@
                     </ogc:Filter>
                 	<se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>   
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
                 <!--area[amenity]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!--area[amenity]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -4244,22 +4666,18 @@
                     </ogc:Filter>
                 	<se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
 
                 <!-- area[shop]:closed -->
-                <!--
-                <se:Rule>
+                <se:Rule> <!-- area[shop]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
@@ -4267,22 +4685,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>  
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
-                -->
-
-
-
 
                 <!-- area[amenity=parking]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[amenity=parking]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -4291,21 +4705,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#bbaa66</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#bbaa66</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#bbaa66</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#bbaa66</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-
-
                 <!-- area[amenity=school]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[amenity=school]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -4314,20 +4725,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#FFFF00</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke">#FFFF00</se:SvgParameter>    
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
                 <!-- Pas pris en compte : "prop_area_small_name : 1;" -->
 
-
-
                 <!-- area[public_transport=pay_scale_area]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[public_transport=pay_scale_area]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>public_transport</ogc:PropertyName>
@@ -4336,16 +4745,15 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#808080</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#808080</se:SvgParameter> 
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>  
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#808080</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#808080</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-
 
                 <!-- way[man_made=pier] -->
                 <se:Rule>
@@ -4357,7 +4765,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#777</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke">#777</se:SvgParameter>   
                             <se:SvgParameter name="width">3</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
@@ -4366,9 +4774,7 @@
                 </se:Rule>
                 <!-- pas pris en compte : "z-index: 4;" -->
 
-
                 <!-- way[man_made=pier][floating=yes] -->
-                <!--
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -4382,18 +4788,15 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            
-                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes;
-                            
+                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> 
                             <se:SvgParameter name="stroke">#444</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
-                -->
                 <!-- pas pris en compte : "z-index: 5;" -->
 
                 <!-- area[leisure=marina]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[leisure=marina]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -4402,17 +4805,15 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#FFC0CB</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#FFC0CB</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter> 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#FFC0CB</se:SvgParameter>    <!--Svg = color; -->
+                            <se:SvgParameter name="stroke">#FFC0CB</se:SvgParameter>    
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
-
-
 
                 <!-- way[leisure=slipway] -->
                 <se:Rule>
@@ -4424,7 +4825,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#808080</se:SvgParameter>  <!--Svg = color; -->
+                            <se:SvgParameter name="color">#808080</se:SvgParameter>  
                             <se:SvgParameter name="width">3</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>  
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
@@ -4433,9 +4834,8 @@
                 </se:Rule>
                 <!-- pas pris en compte : "z-index: 5;" -->
 
-
                 <!-- area[leisure=golf_course]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[leisure=golf_course]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -4444,19 +4844,18 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#44ee22</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#44ee22</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#44ee22</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#44ee22</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
-
-                <!--PAS FINI
+                <!--PAS FINI PROBLEME
                 way[boundary]                         {
                     z-index: 5;
                     color: #000066;
@@ -4520,7 +4919,7 @@
                 } -->
 
                 <!-- area[landuse=cemetery]:closed -->
-                <se:Rule>
+                <se:Rule> <!-- area[landuse=cemetery]:closed PROBLEME -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -4529,18 +4928,108 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#664466</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:SvgParameter name="fill">#664466</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#664466</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:SvgParameter name="stroke">#664466</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
                             <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
 
+<!-- PAS FAIT PROBLEME				
+				/* Route relations */
+
+relation[type=route] > way::route {
+    z-index: -1;
+    width: 13;
+    color: #777;
+    opacity: 0.3;
+    linecap: none;
+}
+relation[type=route][route=bicycle][network=ncn] > way::route {
+    z-index: -1;
+    width: 12;
+    color: red;
+    opacity: 0.3;
+    linecap: none;
+}
+relation[type=route][route=bicycle][network=rcn] > way::route {
+    z-index: -1;
+    width: 12;
+    color: cyan;
+    opacity: 0.3;
+    linecap: none;
+}
+relation[type=route][route=bicycle][network=lcn] > way::route {
+    z-index: -1;
+    width: 12;
+    color: blue;
+    opacity: 0.3;
+    linecap: none;
+}
+relation[type=route][route=mtb] > way::route {
+    z-index: -1;
+    width: 12;
+    color: brown;
+    opacity: 0.3;
+    linecap: none;
+}
+relation[type=route][route=foot] > way::route {
+    z-index: -1;
+    width: 10;
+    color: #80ff80;
+    opacity: 0.6;
+    linecap: none;
+}
+
+/*@import("stylesheets/core_ways.css");*/
+/*@import("stylesheets/core_pois.css");*/
+/*@import("stylesheets/core_landuse.css");*/
+/*@import("stylesheets/core_relations.css");*/
+
+area[eval(prop(small_area))]:closed {
+    text-color: black;
+    font-size: 10;
+    text: name;
+    text-halo-color: white;
+    text-halo-radius: 2;
+    text-position: center;
+}
+
+/*@import("stylesheets/core_interactive.css");*/
+
+/* HDM specific */
+node[man_made=water_well] {
+    icon-image: "icons/bucket-18.png";
+    z-index: 20;
+}
+node[man_made=water_tower] {
+    icon-image: "icons/water_tower-18.png";
+    z-index: 20;
+}
+node[man_made=tower]["tower:type"=communication] {
+    icon-image: "icons/communication_tower-18.png";
+}
+node[amenity=courthouse] {
+    icon-image: "icons/courthouse-18.png";
+}
+node[highway=street_lamp] {
+    icon-image: "icons/street_lamp-18.png";
+}
+node[office=ngo] {
+    icon-image: "icons/ngo-18.png";
+}
+node[office=government] {
+    icon-image: "icons/government.png";
+}
+-->
+
             </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer> 
 </StyledLayerDescriptor>
+
+               
