@@ -4527,7 +4527,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->   <!-- PROBLEME du small area -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4756,7 +4756,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- way[man_made=pier] -->
-                <se:Rule>
+				<se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
@@ -4775,7 +4775,9 @@ way[addr:interpolation] {
                 <!-- pas pris en compte : "z-index: 4;" -->
 
                 <!-- way[man_made=pier][floating=yes] -->
-                <se:Rule>
+                <!-- PROBLEME : ligne <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> marquée fausse sous QGIS -->
+				<!--
+				<se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
@@ -4793,6 +4795,7 @@ way[addr:interpolation] {
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
+				-->
                 <!-- pas pris en compte : "z-index: 5;" -->
 
                 <!-- area[leisure=marina]:closed -->
