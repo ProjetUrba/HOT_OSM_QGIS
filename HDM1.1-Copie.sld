@@ -1024,7 +1024,7 @@
 
 				<!-- way[is_prop_set("prop_path")] -->
                 <!--
-                <se:Rule> <!-- way[is_prop_set("prop_path")] PROBLEME
+                <se:Rule>  way[is_prop_set("prop_path")] PROBLEME
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>is_prop_set("prop_path")</ogc:PropertyName>
@@ -1038,7 +1038,7 @@
                             <se:SvgParameter name="font-size">12</se:SvgParameter>  
                         </se:Font>
                         
-                        <
+                        
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  CSS = text-position: line;
                             <se:PointPlacement>
