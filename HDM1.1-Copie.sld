@@ -7,8 +7,8 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <NamedLayer>
-        <se:Name>se 1.1 for OSM HOT</se:Name>
-        <se:Title>se 1.1 for OSM HOT</se:Title>
+        <se:Name>se 1.1.0 for OSM HOT</se:Name>
+        <se:Title>se 1.1.0 for OSM HOT</se:Title>
 		
 		<!-- Coded into .sld from HDM.mapcss -->
 		
@@ -5721,7 +5721,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#000066</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
+                            <!--
+							<se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5739,7 +5741,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#225500</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
+                            <!--
+							<se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5757,7 +5761,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#447744</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">12,4,4,4</SvgParameter>
+                            <!--
+							<se:SvgParameter name="stroke-dasharray">12,4,4,4</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5775,7 +5781,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">purple</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
+                            <!--
+							<se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5795,7 +5803,9 @@ way[addr:interpolation] {
                         <se:Stroke>
 							<se:SvgParameter name="fill-opacity">0.8</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
+                            <!--
+							<se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5837,7 +5847,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#777</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">13</se:SvgParameter>  
-                            <se:SvgParameter name="linecap">none</SvgParameter>
+                            <!--
+							<se:SvgParameter name="linecap">none</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5863,7 +5875,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">red</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">12</se:SvgParameter>  
-                            <se:SvgParameter name="linecap">none</SvgParameter>
+                            <!--
+							<se:SvgParameter name="linecap">none</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5889,7 +5903,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">blue</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">12</se:SvgParameter>  
-                            <se:SvgParameter name="linecap">none</SvgParameter>
+                            <!--
+							<se:SvgParameter name="linecap">none</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5911,7 +5927,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">brown</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">12</se:SvgParameter>  
-                            <se:SvgParameter name="linecap">none</SvgParameter>
+                            <!--
+							<se:SvgParameter name="linecap">none</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -5933,7 +5951,9 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#80ff80</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">10</se:SvgParameter>  
-                            <se:SvgParameter name="linecap">none</SvgParameter>
+                            <!--
+							<se:SvgParameter name="linecap">none</SvgParameter>
+							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>

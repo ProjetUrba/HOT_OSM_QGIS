@@ -61,24 +61,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#7FC97F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter>  
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#7FC97F</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
-                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter> 
+                            <se:CssParameter name="font">#000000</se:CssParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -99,24 +99,24 @@
                     </ogc:Filter>
                      <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">#7FC97F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                          <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>
+                            <se:CssParameter name="stroke">#7FC97F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
-                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
+                            <se:CssParameter name="font-size">12</se:CssParameter>  
+                            <se:CssParameter name="font">#000000</se:CssParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -143,24 +143,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#809BC0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                          <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#809BC0</se:SvgParameter>
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#809BC0</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
-                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter> 
+                            <se:CssParameter name="font">#000000</se:CssParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -181,24 +181,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">#809BC0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>
+                            <se:CssParameter name="stroke">#809BC0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
-                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter>
+                            <se:CssParameter name="font">#000000</se:CssParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -220,24 +220,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#E46D71</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#E46D71</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#E46D71</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#E46D71</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter> 
+                            <se:CssParameter name="fill">#000000</se:CssParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -258,24 +258,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#E46D71</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#E46D71</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#E46D71</se:SvgParameter>
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#E46D71</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
-                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
+                            <se:CssParameter name="font-size">12</se:CssParameter>  
+                            <se:CssParameter name="font">#000000</se:CssParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -297,24 +297,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#FDBF6F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#FDBF6F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
-                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
+                            <se:CssParameter name="font-size">12</se:CssParameter> 
+                            <se:CssParameter name="font">#000000</se:CssParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -335,24 +335,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">#FDBF6F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>
+                            <se:CssParameter name="stroke">#FDBF6F</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">0.4</se:SvgParameter>  
-                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
+                            <se:CssParameter name="font-size">0.4</se:CssParameter>  
+                            <se:CssParameter name="font">#000000</se:CssParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -373,24 +373,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#E5E581</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#E5E581</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>
-                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
+                            <se:CssParameter name="font-size">12</se:CssParameter>
+                            <se:CssParameter name="font">#000000</se:CssParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
@@ -411,24 +411,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#E5E581</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#E5E581</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
-                            <se:SvgParameter name="font">#000000</se:SvgParameter> 
+                            <se:CssParameter name="font-size">12</se:CssParameter>  
+                            <se:CssParameter name="font">#000000</se:CssParameter> 
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
@@ -450,24 +450,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#D0D0D0</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">#D0D0D0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#D0D0D0</se:SvgParameter>
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>
+                            <se:CssParameter name="stroke">#D0D0D0</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
-                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter> 
+                            <se:CssParameter name="font">#000000</se:CssParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
@@ -489,24 +489,24 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#DAA529</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">#DAA529</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#DAA529</se:SvgParameter>
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>
+                            <se:CssParameter name="stroke">#DAA529</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter> 
-                            <se:SvgParameter name="font">#000000</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter> 
+                            <se:CssParameter name="font">#000000</se:CssParameter>  
                         </se:Font>
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  <!--CSS = text-position: line;-->
@@ -527,18 +527,18 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#888</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#888</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#888</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.2</se:CssParameter>
+                            <se:CssParameter name="stroke">#888</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -552,18 +552,18 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#888</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>  
+                            <se:CssParameter name="stroke">#888</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#888</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>
+                            <se:CssParameter name="stroke">#888</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -590,18 +590,18 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#aaaaaa</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>  
+                            <se:CssParameter name="stroke">#aaaaaa</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                            <se:SvgParameter name="stroke">#aaaaaa</se:SvgParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-linejoin">round</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
+                            <se:CssParameter name="stroke">#aaaaaa</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -619,14 +619,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">6,2</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">6,2</se:CssParameter> 
+                            <se:CssParameter name="stroke">#000000</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -641,13 +641,13 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">#FFFFFF</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter> 
+                            <se:CssParameter name="stroke">#FFFFFF</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -661,13 +661,13 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">#555555</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -685,7 +685,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#c0a56e</se:SvgParameter> 
+                            <se:CssParameter name="color">#c0a56e</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -700,7 +700,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -714,7 +714,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -728,7 +728,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -742,7 +742,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -756,7 +756,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -770,7 +770,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -784,7 +784,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#d4d4d4</se:SvgParameter>  
+                            <se:CssParameter name="color">#d4d4d4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -799,7 +799,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-dasharray">5,5</se:SvgParameter> 
+                            <se:CssParameter name="stroke-dasharray">5,5</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -814,7 +814,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-dasharray">5,10</se:SvgParameter> 
+                            <se:CssParameter name="stroke-dasharray">5,10</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -832,18 +832,18 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#ddddee</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">2,4,2</se:SvgParameter> 
+                            <se:CssParameter name="color">#ddddee</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter> 
+                            <se:CssParameter name="stroke">#555555</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">2,4,2</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <!--
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">2,4</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">2,4</se:CssParameter> 
+                            <se:CssParameter name="stroke">#555555</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     -->
@@ -860,10 +860,10 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="color">#555555</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#ddddee</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>  
+                                <se:CssParameter name="color">#555555</se:CssParameter>  
+                                <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                                <se:CssParameter name="fill-color">#ddddee</se:CssParameter>  
+                                <se:CssParameter name="fill-opacity">0.8</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -882,9 +882,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#FF6644</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">2,2</se:SvgParameter>  
+                            <se:CssParameter name="color">#FF6644</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>
+                            <se:CssParameter name="stroke-dasharray">2,2</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -899,10 +899,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#c3c3c3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">6,3</se:SvgParameter>  
-                            <se:SvgParameter name="prop_path">1</se:SvgParameter>  
+                            <se:CssParameter name="color">#c3c3c3</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>
+                            <se:CssParameter name="stroke-dasharray">6,3</se:CssParameter>  
+                            <se:CssParameter name="prop_path">1</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -921,8 +921,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">blue</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">blue</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -937,10 +937,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#996644</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,2,2,2</se:SvgParameter>  
-                            <se:SvgParameter name="prop_path">1</se:SvgParameter>  
+                            <se:CssParameter name="color">#996644</se:CssParameter> 
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,2,2,2</se:CssParameter>  
+                            <se:CssParameter name="prop_path">1</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -955,10 +955,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#996644</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,2</se:SvgParameter> 
-                            <se:SvgParameter name="prop_path">1</se:SvgParameter>  
+                            <se:CssParameter name="color">#996644</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,2</se:CssParameter> 
+                            <se:CssParameter name="prop_path">1</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -973,10 +973,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#c0a56e</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">2,2</se:SvgParameter> 
-                            <se:SvgParameter name="prop_path">1</se:SvgParameter>  
+                            <se:CssParameter name="color">#c0a56e</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">2,2</se:CssParameter> 
+                            <se:CssParameter name="prop_path">1</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -991,10 +991,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">blue</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,2</se:SvgParameter> 
-                            <se:SvgParameter name="prop_path">1</se:SvgParameter>  
+                            <se:CssParameter name="color">blue</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,2</se:CssParameter> 
+                            <se:CssParameter name="prop_path">1</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1008,10 +1008,10 @@
                     </ogc:Filter>
                     <se:TextSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#000000</se:SvgParameter> 
+                            <se:CssParameter name="fill">#000000</se:CssParameter> 
                         </se:Fill>
                         <se:Font>
-                            <se:SvgParameter name="font-size">12</se:SvgParameter>  
+                            <se:CssParameter name="font-size">12</se:CssParameter>  
                         </se:Font>
                         
                         <
@@ -1046,9 +1046,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#88ffff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter> 
+                            <se:CssParameter name="color">#88ffff</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,4</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1062,16 +1062,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#ffffbb</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">#0000aa</se:SvgParameter>
+                            <se:CssParameter name="color">#ffffbb</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,4</se:CssParameter> 
+                            <se:CssParameter name="stroke">#0000aa</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter>
+                            <se:CssParameter name="stroke-width">0.4</se:CssParameter>
+                            <se:CssParameter name="stroke-dasharray">8,4</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1087,10 +1087,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                            <se:SvgParameter name="stroke-dasharray">0</se:SvgParameter> 
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
+                            <se:CssParameter name="stroke-dasharray">0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1104,10 +1104,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">12,12</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">12,12</se:CssParameter> 
+                            <se:CssParameter name="stroke-linecap">round</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1121,9 +1121,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">6,6,4,8</se:SvgParameter> 
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">6,6,4,8</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1137,9 +1137,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">6,18</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">6,18</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1153,8 +1153,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1168,8 +1168,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">#444444</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1183,9 +1183,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,8</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,8</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1199,9 +1199,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,4</se:SvgParameter> 
+                            <se:CssParameter name="color">#444444</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,4</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1215,9 +1215,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,12</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,12</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1231,9 +1231,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444400</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">17,2,5,0</se:SvgParameter> 
+                            <se:CssParameter name="color">#444400</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">17,2,5,0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1247,9 +1247,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444400</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">17,2,5,0</se:SvgParameter> 
+                            <se:CssParameter name="color">#444400</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">17,2,5,0</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1263,9 +1263,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">12,12</se:SvgParameter> 
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">12,12</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1279,9 +1279,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">12,12</se:SvgParameter> 
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">12,12</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1295,10 +1295,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">black</se:SvgParameter> 
-                            <se:SvgParameter name="casing-stroke-width">2</se:SvgParameter> 
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">black</se:CssParameter> 
+                            <se:CssParameter name="casing-stroke-width">2</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1312,47 +1312,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">black</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">6,6</se:SvgParameter> 
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke">black</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">6,6</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">6,6</se:SvgParameter> 
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-        
-                <se:Rule>  
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>type</ogc:PropertyName>
-                            <ogc:Literal>light_rail</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                        </se:Stroke>
-                    </se:LineSymbolizer>
-                </se:Rule>
-        
-                <se:Rule>  <!-- way[type=light_rail]::stroke-dasharray -->
-                    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>type</ogc:PropertyName>
-                            <ogc:Literal>light_rail</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                    </ogc:Filter>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">6,6</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1366,9 +1335,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,4,4,4</se:SvgParameter>  
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1382,9 +1350,41 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,12</se:SvgParameter>  
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,4</se:CssParameter>  
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+        
+                <se:Rule>  
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>type</ogc:PropertyName>
+                            <ogc:Literal>light_rail</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,4,4,4</se:CssParameter>  
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+        
+                <se:Rule>  <!-- way[type=light_rail]::stroke-dasharray -->
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>type</ogc:PropertyName>
+                            <ogc:Literal>light_rail</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,12</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1417,16 +1417,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">#3434ff</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  <!-- CSS: text: auto; non passé en se--> 
                             <se:Fill>
-                                <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
+                                <se:CssParameter name="fill">#3434ff</se:CssParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
+                                <se:CssParameter name="font-size">9</se:CssParameter>  
                             </se:Font>
                             <!--
                             <se:LabelPlacement>
@@ -1451,16 +1451,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">#3434ff</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  
                             <se:Fill>
-                                <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
+                                <se:CssParameter name="fill">#3434ff</se:CssParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
+                                <se:CssParameter name="font-size">9</se:CssParameter>  
                             </se:Font>
                             <!--
                             <se:LabelPlacement>
@@ -1485,16 +1485,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">#3434ff</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  
                             <se:Fill>
-                                <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
+                                <se:CssParameter name="fill">#3434ff</se:CssParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
+                                <se:CssParameter name="font-size">9</se:CssParameter>  
                             </se:Font>
                             <!--
                             <se:LabelPlacement>
@@ -1519,13 +1519,13 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:CssParameter name="color">#3434ff</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">0.6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  
                             <se:Fill>
-                                <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
+                                <se:CssParameter name="fill">#3434ff</se:CssParameter> 
                             </se:Fill>
                             <!--
                             <se:LabelPlacement>
@@ -1553,7 +1553,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,4</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1570,8 +1570,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#1B00FD</se:SvgParameter>  
-                            <se:SvgParameter name="fill-opacity">0.26</se:SvgParameter>  
+                            <se:CssParameter name="color">#1B00FD</se:CssParameter>  
+                            <se:CssParameter name="fill-opacity">0.26</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1587,14 +1587,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#bb44bb</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#660660</se:SvgParameter> 
+                            <se:CssParameter name="color">#bb44bb</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  
+                            <se:CssParameter name="stroke">#660660</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1608,8 +1608,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="fill-color">#bb99bb</se:SvgParameter>  
-                            <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter> 
+                            <se:CssParameter name="fill-color">#bb99bb</se:CssParameter>  
+                            <se:CssParameter name="fill-opacity">0.5</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1623,14 +1623,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#aa66aa</se:SvgParameter>
+                            <se:CssParameter name="color">#999999</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  
+                            <se:CssParameter name="stroke">#aa66aa</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1645,9 +1645,9 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="color">#bb99bb</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#ccaacc</se:SvgParameter>  
+                                <se:CssParameter name="color">#bb99bb</se:CssParameter>  
+                                <se:CssParameter name="stroke-width">3</se:CssParameter>  
+                                <se:CssParameter name="fill-color">#ccaacc</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -1662,14 +1662,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">11</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#aa66aa</se:SvgParameter> 
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">11</se:CssParameter>  
+                            <se:CssParameter name="stroke">#aa66aa</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1683,9 +1683,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">9</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">0,20,4,76</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">9</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">0,20,4,76</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1699,8 +1699,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>  
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">7</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1714,9 +1714,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">0,20,4,76</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">5</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">0,20,4,76</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1730,8 +1730,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1745,9 +1745,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,16</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,16</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1761,8 +1761,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">5</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1776,9 +1776,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">0,20,4,76</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">5</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">0,20,4,76</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1792,8 +1792,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1807,9 +1807,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,16</se:SvgParameter> 
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,16</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1823,8 +1823,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:CssParameter name="color">#444444</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1839,9 +1839,9 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="color">black</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#775577</se:SvgParameter>  
+                                <se:CssParameter name="color">black</se:CssParameter>  
+                                <se:CssParameter name="stroke-width">3</se:CssParameter>  
+                                <se:CssParameter name="fill-color">#775577</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -1857,10 +1857,10 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="color">#cc66cc</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#ddaadd</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>  
+                                <se:CssParameter name="color">#cc66cc</se:CssParameter>  
+                                <se:CssParameter name="stroke-width">1</se:CssParameter>  
+                                <se:CssParameter name="fill-color">#ddaadd</se:CssParameter>  
+                                <se:CssParameter name="fill-opacity">0.5</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -1876,8 +1876,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#000000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
+                            <se:CssParameter name="color">#000000</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1891,9 +1891,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#000000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">8,4,2,4</se:SvgParameter> 
+                            <se:CssParameter name="color">#000000</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">8,4,2,4</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1907,8 +1907,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#520000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:CssParameter name="color">#520000</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1924,16 +1924,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">darkgray</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">12,2</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">black</se:SvgParameter> 
+                            <se:CssParameter name="color">darkgray</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">12,2</se:CssParameter> 
+                            <se:CssParameter name="stroke">black</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">4,38</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">4,38</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1947,16 +1947,16 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-dasharray">2,22</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">3</se:CssParameter> 
+                            <se:CssParameter name="stroke-dasharray">2,22</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">gray</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">2,4</se:SvgParameter> 
-                            <se:SvgParameter name="stroke">white</se:SvgParameter> 
+                            <se:CssParameter name="color">gray</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">2,4</se:CssParameter> 
+                            <se:CssParameter name="stroke">white</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1971,9 +1971,9 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="fill-color">#666666</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>  
-                                <se:SvgParameter name="small_area">true</se:SvgParameter>  
+                                <se:CssParameter name="fill-color">#666666</se:CssParameter>  
+                                <se:CssParameter name="fill-opacity">0.6</se:CssParameter>  
+                                <se:CssParameter name="small_area">true</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -1989,11 +1989,11 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="color">black</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#444444</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>  
-                                <se:SvgParameter name="small_area">true</se:SvgParameter>  
+                                <se:CssParameter name="color">black</se:CssParameter>  
+                                <se:CssParameter name="stroke-width">2</se:CssParameter>  
+                                <se:CssParameter name="fill-color">#444444</se:CssParameter>  
+                                <se:CssParameter name="fill-opacity">0.6</se:CssParameter>  
+                                <se:CssParameter name="small_area">true</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -2010,15 +2010,15 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">darkgreen</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">green</se:SvgParameter> 
-                            <se:SvgParameter name="casing-stroke-width">2</se:SvgParameter> 
+                            <se:CssParameter name="color">darkgreen</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">5</se:CssParameter>  
+                            <se:CssParameter name="stroke">green</se:CssParameter> 
+                            <se:CssParameter name="casing-stroke-width">2</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2033,9 +2033,9 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:Stroke>
-                                <se:SvgParameter name="color">#66ddcc</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#66ddcc</se:SvgParameter>  
-                                <se:SvgParameter name="small_area">true</se:SvgParameter>  
+                                <se:CssParameter name="color">#66ddcc</se:CssParameter>  
+                                <se:CssParameter name="fill-color">#66ddcc</se:CssParameter>  
+                                <se:CssParameter name="small_area">true</se:CssParameter>  
                             </se:Stroke>
                         </se:Fill>
                     </se:PolygonSymbolizer>
@@ -2052,8 +2052,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+3</se:SvgParameter>  
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+3</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2067,8 +2067,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+3</se:SvgParameter>  
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+3</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2082,8 +2082,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+3</se:SvgParameter>  
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+3</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2097,8 +2097,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:CssParameter name="color">#444444</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2112,8 +2112,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:CssParameter name="color">#444444</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2127,8 +2127,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:CssParameter name="color">#444444</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+6</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2145,8 +2145,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+2</se:SvgParameter>  
+                            <se:CssParameter name="color">white</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+2</se:CssParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2163,9 +2163,9 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-dasharray">4,4</se:SvgParameter> 
+                            <se:CssParameter name="color">black</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">+6</se:CssParameter>  
+                            <se:CssParameter name="stroke-dasharray">4,4</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2203,9 +2203,9 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>  
-                            <se:SvgParameter name="font-family">Open Sans</se:SvgParameter>  
-                            <se:SvgParameter name="font-weight">bold</se:SvgParameter>  
+                            <se:CssParameter name="font-size">10</se:CssParameter>  
+                            <se:CssParameter name="font-family">Open Sans</se:CssParameter>  
+                            <se:CssParameter name="font-weight">bold</se:CssParameter>  
                         </se:Font>
                        
                     </se:TextSymbolizer>
@@ -3076,7 +3076,7 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>  
+                            <se:CssParameter name="font-size">10</se:CssParameter>  
                         </se:Font>
                        
                     </se:TextSymbolizer>
@@ -3628,12 +3628,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ADD6A5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:CssParameter name="fill">#ADD6A5</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = fill-opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ADD6A5</se:SvgParameter>    Svg = color;
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width;
+                            <se:CssParameter name="stroke">#ADD6A5</se:CssParameter>    Css = color;
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width;
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3650,13 +3650,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#FFFF00</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ffdd44</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#ffdd44</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    <!--Css = width; -->
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3675,8 +3675,8 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#000000</se:CssParameter>  <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">3</se:CssParameter>  <!--Css = width; -->
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -3692,13 +3692,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#444444</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.3</se:SvgParameter>    Svg = opacity; 
+                            <se:CssParameter name="fill">#444444</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.3</se:CssParameter>    Css = opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#444444</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#444444</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3716,12 +3716,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#EB6D69</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.05</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:CssParameter name="fill">#EB6D69</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.05</se:CssParameter>    <!--Css = opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#eeece1</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#eeece1</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    <!--Css = width; -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3738,12 +3738,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#aa4422</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:CssParameter name="fill">#aa4422</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.15</se:CssParameter>    <!--Css = opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#cc2222</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#cc2222</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3760,12 +3760,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#D5C6C9</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.15</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:CssParameter name="fill">#D5C6C9</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.15</se:CssParameter>    <!--Css = opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#D5C6C9</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#D5C6C9</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3783,13 +3783,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ff4444</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = opacity; -->
+                            <se:CssParameter name="fill">#ff4444</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ff4444</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:CssParameter name="stroke">#ff4444</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3808,12 +3808,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#8CD6B5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:CssParameter name="fill">#8CD6B5</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#8CD6B5</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width;
+                            <se:CssParameter name="stroke">#8CD6B5</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width;
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3830,13 +3830,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#F7CECE</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:CssParameter name="fill">#F7CECE</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#F7CECE</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#F7CECE</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3857,13 +3857,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:CssParameter name="fill">#F7F7DE</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#F7F7DE</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3880,13 +3880,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#F7F7DE</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:CssParameter name="fill">#F7F7DE</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#F7F7DE</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#F7F7DE</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3906,13 +3906,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#D6D6D6</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity; 
+                            <se:CssParameter name="fill">#D6D6D6</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#D6D6D6</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#D6D6D6</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3932,13 +3932,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#D58C8C</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = opacity;
+                            <se:CssParameter name="fill">#D58C8C</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = opacity;
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#D58C8C</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#D58C8C</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3961,13 +3961,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:CssParameter name="fill">#3434ff</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = fill-opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                            <se:CssParameter name="stroke">#3434ff</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -3984,13 +3984,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#3434ff</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:CssParameter name="stroke">#3434ff</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4008,13 +4008,13 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#3434ff</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:CssParameter name="stroke">#000000</se:CssParameter>  <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>  <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>-->
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -4031,13 +4031,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   Svg = fill-color;
-                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    Svg = fill-opacity;
+                            <se:CssParameter name="fill">#222222</se:CssParameter>   Css = fill-color;
+                            <se:CssParameter name="fill-opacity">0.1</se:CssParameter>    Css = fill-opacity;
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    Svg = width; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter> 
+                            <se:CssParameter name="stroke">#000000</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    Css = width; 
+                            <se:CssParameter name="small_area">true</se:CssParameter> 
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4057,15 +4057,15 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#222222</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.1</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#3434ff</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
                             <!--
-                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes; 
-                            <se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:CssParameter name="stroke-dasharray">4,2</CssParameter>  Css = dashes; 
+                            <se:CssParameter name="small_area">true</se:CssParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4083,13 +4083,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#3434ff</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:CssParameter name="stroke">#3434ff</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4108,13 +4108,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#008000</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>--> 
+                            <se:CssParameter name="stroke">#008000</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>--> 
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4131,13 +4131,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#008000</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:CssParameter name="stroke">#008000</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4154,14 +4154,14 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#44ff44</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.25</se:SvgParameter>    <!--Svg = fill-opacity; -->
-                            <se:SvgParameter name="color">#22aa22</se:SvgParameter>    <!--Svg = color; -->
+                            <se:CssParameter name="fill">#44ff44</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.25</se:CssParameter>    <!--Css = fill-opacity; -->
+                            <se:CssParameter name="color">#22aa22</se:CssParameter>    <!--Css = color; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#22aa22</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:CssParameter name="stroke">#22aa22</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">0.1</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4179,13 +4179,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#66ff44</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#66ff44</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#66ff44</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:CssParameter name="stroke">#66ff44</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter> -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4202,13 +4202,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#88ff44</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#88ff44</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#88bb44</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter> -->
+                            <se:CssParameter name="stroke">#88bb44</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter> -->
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>		  	
@@ -4225,11 +4225,11 @@
                     </ogc:Filter>
                 	<se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#008000</se:SvgParameter>   <!--Svg = fill-color; -->
+                            <se:CssParameter name="fill">#008000</se:CssParameter>   <!--Css = fill-color; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#008000</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="small_area">true</se:SvgParameter>   
+                            <se:CssParameter name="stroke">#008000</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="small_area">true</se:CssParameter>   
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4247,12 +4247,12 @@
                     </ogc:Filter>
                 	<se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:CssParameter name="fill">#ADCEB5</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = fill-opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:CssParameter name="stroke">#ADCEB5</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4270,12 +4270,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#ADCEB5</se:SvgParameter>   Svg = fill-color; 
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    Svg = fill-opacity; 
+                            <se:CssParameter name="fill">#ADCEB5</se:CssParameter>   Css = fill-color; 
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    Css = fill-opacity; 
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#ADCEB5</se:SvgParameter>    Svg = color; 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    Svg = width; 
+                            <se:CssParameter name="stroke">#ADCEB5</se:CssParameter>    Css = color; 
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    Css = width; 
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4294,12 +4294,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#bbaa66</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#bbaa66</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#bbaa66</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#bbaa66</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    <!--Css = width; -->
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4317,11 +4317,11 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#FFFF00</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#FFFF00</se:SvgParameter>    <!--Svg = color; -->
+                            <se:CssParameter name="stroke">#FFFF00</se:CssParameter>    <!--Css = color; -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4339,12 +4339,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#808080</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#808080</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.1</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#808080</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    <!--Svg = width; -->
+                            <se:CssParameter name="stroke">#808080</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">1</se:CssParameter>    <!--Css = width; -->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4360,10 +4360,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#777</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="width">3</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+                            <se:CssParameter name="stroke">#777</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="width">3</se:CssParameter>  
+                            <se:CssParameter name="stroke">#000000</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">1</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -4386,9 +4386,9 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             
-                            <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  Svg = dashes;
+                            <se:CssParameter name="stroke-dasharray">4,2</CssParameter>  Css = dashes;
                             
-                            <se:SvgParameter name="stroke">#444</se:SvgParameter>
+                            <se:CssParameter name="stroke">#444</se:CssParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -4405,12 +4405,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#FFC0CB</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#FFC0CB</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.4</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#FFC0CB</se:SvgParameter>    <!--Svg = color; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:CssParameter name="stroke">#FFC0CB</se:CssParameter>    <!--Css = color; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4427,10 +4427,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="color">#808080</se:SvgParameter>  <!--Svg = color; -->
-                            <se:SvgParameter name="width">3</se:SvgParameter>  
-                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:CssParameter name="color">#808080</se:CssParameter>  <!--Css = color; -->
+                            <se:CssParameter name="width">3</se:CssParameter>  
+                            <se:CssParameter name="stroke">#3434ff</se:CssParameter>  
+                            <se:CssParameter name="stroke-width">2</se:CssParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -4447,13 +4447,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#44ee22</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#44ee22</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#44ee22</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:CssParameter name="stroke">#44ee22</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -4479,10 +4479,10 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000066</se:SvgParameter>  Svg = color; 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  Svg = width; 
+                            <se:CssParameter name="stroke">#000066</se:CssParameter>  Css = color; 
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>  Css = width; 
                             <
-                            <se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>  Svg = dashes; 
+                            <se:CssParameter name="stroke-dasharray">24,4,4,4</CssParameter>  Css = dashes; 
                             
                         </se:Stroke>
                     </se:LineSymbolizer>	
@@ -4532,13 +4532,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#664466</se:SvgParameter>   <!--Svg = fill-color; -->
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    <!--Svg = fill-opacity; -->
+                            <se:CssParameter name="fill">#664466</se:CssParameter>   <!--Css = fill-color; -->
+                            <se:CssParameter name="fill-opacity">0.2</se:CssParameter>    <!--Css = fill-opacity; -->
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#664466</se:SvgParameter>    <!--Svg = color; -->
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    <!--Svg = width; -->
-                            <!--<se:SvgParameter name="small_area">true</se:SvgParameter>-->
+                            <se:CssParameter name="stroke">#664466</se:CssParameter>    <!--Css = color; -->
+                            <se:CssParameter name="stroke-width">2</se:CssParameter>    <!--Css = width; -->
+                            <!--<se:CssParameter name="small_area">true</se:CssParameter>-->
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
