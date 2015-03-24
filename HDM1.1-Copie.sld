@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor version="1.1.0"
-   xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+	xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
     xmlns="http://www.opengis.net/se"
     xmlns:ogc="http://www.opengis.net/ogc"
-    xmlns:sld="http://www.opengis.net/sld"
+    xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <NamedLayer>
-        <se:Name>se 1.1.0 for OSM HOT</se:Name>
+		<se:Name>se 1.1.0 for OSM HOT</se:Name>
         <se:Title>se 1.1.0 for OSM HOT</se:Title>
 		
 		<!-- Coded into .sld from HDM.mapcss -->
@@ -66,7 +66,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">0.14</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -74,7 +74,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -144,7 +144,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">0.14</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -152,7 +152,7 @@
                          <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#809BC0</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1033,7 +1033,7 @@
                                 </se:Displacement>
                             </se:PointPlacement>  
                     </se:TextSymbolizer>
-                     text: auto; n'a pas été mis en .se 
+                     text: auto; n'a pas ete mis en .se 
                 </se:Rule> 
                 -->
 
@@ -1447,7 +1447,7 @@
                             <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:TextSymbolizer>  <!-- CSS: text: auto; non passé en se--> 
+                    <se:TextSymbolizer>  <!-- CSS: text: auto; non passe en se--> 
                             <se:Fill>
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
@@ -2243,7 +2243,7 @@
  * core_pois.css
  ****************/
  -->
-				<!-- PROBLEME    => Pas du tout passé en sld !!
+				<!-- PROBLEME    => Pas du tout passe en sld !!
 				node {
 					text-anchor-horizontal: center;
 					text-anchor-vertical: below;
@@ -5628,7 +5628,7 @@ way[addr:interpolation] {
 
 
                 <!-- way[man_made=pier][floating=yes] -->
-                <!-- PROBLEME : ligne <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> marquée fausse sous QGIS -->
+                <!-- PROBLEME : ligne <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> marquee fausse sous QGIS -->
 				<!--
 				<se:Rule>
                     <ogc:Filter>

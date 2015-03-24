@@ -23,8 +23,8 @@
 				    <se:PointSymbolizer>
 				        <se:Graphic>
                             <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/hotel-18.png" />          
-                                <se:Format>image/png</se:Format>
+                                <se:OnlineResource xlink:type="simple" xlink:href="C:/Program Files/QGIS Brighton/apps/qgis/svg/tourist/tourist_beach.svg" />          
+                                <se:Format>image/svg</se:Format>
                             </se:ExternalGraphic>
                         </se:Graphic>
 				    </se:PointSymbolizer>

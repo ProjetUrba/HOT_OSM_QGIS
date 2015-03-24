@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor version="1.1.0"
-   xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/StyledLayerDescriptor.xsd"
-    xmlns="http://www.opengis.net/se"
+   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns="http://www.opengis.net/sld"
     xmlns:ogc="http://www.opengis.net/ogc"
-    xmlns:se="http://www.opengis.net/se"
+    xmlns:sld="http://www.opengis.net/sld"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <NamedLayer>
-        <sld:Name>se 1.1.0 for OSM HOT</sld:Name>
-        <sld:Title>se 1.1.0 for OSM HOT</sld:Title>
+        <sld:Name>sld 1.1.0 for OSM HOT</sld:Name>
+        <sld:Title>sld 1.1.0 for OSM HOT</sld:Title>
 		
 		<!-- Coded into .se from HDM.mapcss -->
 		
