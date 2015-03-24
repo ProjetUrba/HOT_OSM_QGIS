@@ -86,10 +86,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -125,10 +127,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
     
@@ -164,10 +168,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 				
@@ -203,10 +209,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -242,10 +250,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
                             <se:Fill>#FFFFFF</se:Fill> 
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -281,10 +291,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -320,10 +332,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -359,10 +373,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
                             <se:Fill>#FFFFFF</se:Fill> 
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -398,10 +414,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -437,10 +455,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -476,10 +496,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -515,10 +537,12 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  <!--CSS = text-position: line;-->
                         </se:LabelPlacement>
+                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
                             <se:Fill>#FFFFFF</se:Fill>  
                         </se:Halo>
+                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
