@@ -5264,6 +5264,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>building</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
