@@ -66,7 +66,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.14</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -74,7 +74,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -107,7 +107,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -115,7 +115,7 @@
                          <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#7FC97F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -148,7 +148,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.14</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -156,7 +156,7 @@
                          <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#809BC0</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -189,7 +189,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -197,7 +197,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#809BC0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -230,7 +230,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#E46D71</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -271,7 +271,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#E46D71</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -312,7 +312,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -353,7 +353,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -361,7 +361,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#FDBF6F</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -394,7 +394,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -435,7 +435,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">1.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#E5E581</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -476,7 +476,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#D0D0D0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -484,7 +484,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#D0D0D0</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -517,7 +517,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#DAA529</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -525,7 +525,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#DAA529</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -558,7 +558,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#888</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -566,7 +566,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#888</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -584,7 +584,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#888</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -592,7 +592,7 @@
                         <se:Stroke>
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke">#888</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -642,7 +642,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">6,2</se:SvgParameter> 
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
                         </se:Stroke>
@@ -664,7 +664,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke">#FFFFFF</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -685,7 +685,7 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -864,14 +864,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#ddddee</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
 							<se:SvgParameter name="stroke-dasharray">2,4,2</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">2,4</se:SvgParameter> 
                             <se:SvgParameter name="stroke">#555555</se:SvgParameter> 
                         </se:Stroke>
@@ -890,7 +890,7 @@
                         <se:Fill>
                             <se:Stroke>
                                 <se:SvgParameter name="color">#555555</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                                 <se:SvgParameter name="fill-color">#ddddee</se:SvgParameter>  
                                 <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>  
                             </se:Stroke>
@@ -913,7 +913,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#FF6644</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">2,2</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -930,7 +930,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#c3c3c3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">6,3</se:SvgParameter>  
                             <se:SvgParameter name="prop_path">1</se:SvgParameter>  
                         </se:Stroke>
@@ -952,7 +952,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">blue</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -986,7 +986,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#996644</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">4,2</se:SvgParameter> 
                             <se:SvgParameter name="prop_path">1</se:SvgParameter>  
                         </se:Stroke>
@@ -1004,7 +1004,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#c0a56e</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">2,2</se:SvgParameter> 
                             <se:SvgParameter name="prop_path">1</se:SvgParameter>  
                         </se:Stroke>
@@ -1022,7 +1022,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">blue</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">4,2</se:SvgParameter> 
                             <se:SvgParameter name="prop_path">1</se:SvgParameter>  
                         </se:Stroke>
@@ -1075,7 +1075,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#88ffff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1092,14 +1092,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#ffffbb</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter> 
                             <se:SvgParameter name="stroke">#0000aa</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1118,7 +1118,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                             <se:SvgParameter name="stroke-dasharray">0</se:SvgParameter> 
                         </se:Stroke>
@@ -1136,7 +1136,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">12,12</se:SvgParameter> 
                             <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
                         </se:Stroke>
@@ -1154,7 +1154,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">6,6,4,8</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1171,7 +1171,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">6,18</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1188,7 +1188,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1220,7 +1220,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">8,8</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1237,7 +1237,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">4,4</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1254,7 +1254,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">4,12</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1271,7 +1271,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444400</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">17,2,5,0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1288,7 +1288,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444400</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">17,2,5,0</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1305,7 +1305,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">12,12</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1322,7 +1322,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">12,12</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1339,7 +1339,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">black</se:SvgParameter> 
                             <se:SvgParameter name="casing-stroke-width">2</se:SvgParameter> 
                         </se:Stroke>
@@ -1357,14 +1357,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">black</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">6,6</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">6,6</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1381,7 +1381,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1397,7 +1397,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">8,4</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1414,7 +1414,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">8,4,4,4</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1431,7 +1431,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">8,12</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1468,7 +1468,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  <!-- CSS: text: auto; non passe en se--> 
@@ -1503,7 +1503,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  
@@ -1538,7 +1538,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  
@@ -1573,7 +1573,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">0.6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:TextSymbolizer>  
@@ -1645,7 +1645,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#bb44bb</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#660660</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1683,13 +1683,13 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#999999</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#aa66aa</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1706,7 +1706,7 @@
                         <se:Fill>
                             <se:Stroke>
                                 <se:SvgParameter name="color">#bb99bb</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                                 <se:SvgParameter name="fill-color">#ccaacc</se:SvgParameter>  
                             </se:Stroke>
                         </se:Fill>
@@ -1724,7 +1724,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">11</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#aa66aa</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1746,7 +1746,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">9</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">0,20,4,76</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1763,7 +1763,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">7</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1779,7 +1779,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">0,20,4,76</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1796,7 +1796,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1829,7 +1829,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1845,7 +1845,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">0,20,4,76</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -1862,7 +1862,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1895,7 +1895,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -1912,7 +1912,7 @@
                         <se:Fill>
                             <se:Stroke>
                                 <se:SvgParameter name="color">black</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                                 <se:SvgParameter name="fill-color">#775577</se:SvgParameter>  
                             </se:Stroke>
                         </se:Fill>
@@ -1983,7 +1983,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#520000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2001,14 +2001,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">darkgray</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">12,2</se:SvgParameter> 
                             <se:SvgParameter name="stroke">black</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">4,38</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -2024,14 +2024,14 @@
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="stroke-dasharray">2,22</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">gray</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">2,4</se:SvgParameter> 
                             <se:SvgParameter name="stroke">white</se:SvgParameter> 
                         </se:Stroke>
@@ -2069,7 +2069,7 @@
                         <se:Fill>
                             <se:Stroke>
                                 <se:SvgParameter name="color">black</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                                 <se:SvgParameter name="fill-color">#444444</se:SvgParameter>  
                                 <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>  
                                 <se:SvgParameter name="small_area">true</se:SvgParameter>  
@@ -2091,14 +2091,14 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">darkgreen</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">5</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">green</se:SvgParameter> 
-                            <se:SvgParameter name="casing-stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="casing-stroke-width">1</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2135,7 +2135,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2151,7 +2151,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2167,7 +2167,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2183,7 +2183,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2199,7 +2199,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2215,7 +2215,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#444444</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2235,7 +2235,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">white</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
@@ -2256,7 +2256,7 @@
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">black</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">+6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke-dasharray">4,4</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
@@ -5052,7 +5052,7 @@ way[addr:interpolation] {
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -5071,7 +5071,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#444444</se:SvgParameter>   
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5092,7 +5092,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#EB6D69</se:SvgParameter>    
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -5112,7 +5112,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#cc2222</se:SvgParameter>   
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -5132,7 +5132,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#D5C6C9</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
@@ -5152,7 +5152,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ff4444</se:SvgParameter>   
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5297,7 +5297,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5318,7 +5318,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>   
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5359,7 +5359,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="small_area">true</se:SvgParameter> 
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5380,7 +5380,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>   
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    
                             <!--
                             <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> -->
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
@@ -5403,7 +5403,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>    
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5424,7 +5424,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#008000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5445,7 +5445,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#008000</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5466,7 +5466,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#22aa22</se:SvgParameter>   
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5508,7 +5508,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#88bb44</se:SvgParameter>    
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
@@ -5643,7 +5643,7 @@ way[addr:interpolation] {
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#777</se:SvgParameter>   
-                            <se:SvgParameter name="width">3</se:SvgParameter>  
+                            <se:SvgParameter name="width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>  
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                         </se:Stroke>
@@ -5705,9 +5705,9 @@ way[addr:interpolation] {
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="color">#808080</se:SvgParameter>  
-                            <se:SvgParameter name="width">3</se:SvgParameter>  
+                            <se:SvgParameter name="width">1</se:SvgParameter>  
                             <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>	
                 </se:Rule>
@@ -5727,7 +5727,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#44ee22</se:SvgParameter>  
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5744,7 +5744,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">#000066</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
 							-->
@@ -5764,7 +5764,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">#225500</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
 							-->
@@ -5784,7 +5784,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">#447744</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="stroke-dasharray">12,4,4,4</SvgParameter>
 							-->
@@ -5804,7 +5804,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">purple</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
 							-->
@@ -5826,7 +5826,7 @@ way[addr:interpolation] {
 					<se:LineSymbolizer>
                         <se:Stroke>
 							<se:SvgParameter name="fill-opacity">0.8</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">6</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
 							-->
@@ -5849,7 +5849,7 @@ way[addr:interpolation] {
                         </se:Fill>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#664466</se:SvgParameter>    
-                            <se:SvgParameter name="stroke-width">2</se:SvgParameter>    
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>    
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
@@ -5870,7 +5870,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">#777</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">13</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
@@ -5898,7 +5898,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">red</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">12</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
@@ -5926,7 +5926,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">blue</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">12</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
@@ -5950,7 +5950,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">brown</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">12</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
@@ -5974,7 +5974,7 @@ way[addr:interpolation] {
                         <se:Stroke>
                             <se:SvgParameter name="fill-color">#80ff80</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
-                            <se:SvgParameter name="stroke-width">10</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <!--
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
