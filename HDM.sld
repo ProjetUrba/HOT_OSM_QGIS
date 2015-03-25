@@ -86,12 +86,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -127,12 +125,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
     
@@ -168,12 +164,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>  
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 				
@@ -209,12 +203,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -250,12 +242,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:Fill>#FFFFFF</se:Fill> 
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -291,12 +281,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -332,12 +320,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -373,12 +359,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:Fill>#FFFFFF</se:Fill> 
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -414,12 +398,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -455,12 +437,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement> 
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -496,12 +476,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
         
@@ -537,12 +515,10 @@
                         <se:LabelPlacement>
                             <se:LinePlacement> </se:LinePlacement>  <!--CSS = text-position: line;-->
                         </se:LabelPlacement>
-                        <!--
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:Fill>#FFFFFF</se:Fill>  
+                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
                         </se:Halo>
-                        -->
                     </se:TextSymbolizer>
                 </se:Rule>
 
@@ -1478,7 +1454,7 @@
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
+                                <se:SvgParameter name="Font">9</se:SvgParameter>  
                             </se:Font>
                             <!--
                             <se:LabelPlacement>
@@ -1513,7 +1489,7 @@
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
+                                <se:SvgParameter name="Font">9</se:SvgParameter>  
                             </se:Font>
                             <!--
                             <se:LabelPlacement>
@@ -1548,7 +1524,7 @@
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
+                                <se:SvgParameter name="Font">9</se:SvgParameter>  
                             </se:Font>
                             <!--
                             <se:LabelPlacement>
@@ -3257,7 +3233,7 @@
                             <ogc:PropertyName>name</ogc:PropertyName>
                         </se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-size">10</se:SvgParameter>  
+                            <se:SvgParameter name="Font">10</se:SvgParameter>  
                         </se:Font>
                     </se:TextSymbolizer>
 				</se:Rule>
