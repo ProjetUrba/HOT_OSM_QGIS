@@ -7,13 +7,13 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <NamedLayer>
-		<se:Name>se 1.1.0 for OSM HOT</se:Name>
-        <se:Title>se 1.1.0 for OSM HOT</se:Title>
+		<se:Name>sld 1.1.0 for OSM HOT</se:Name>
+        <se:Title>sld 1.1.0 for OSM HOT</se:Title>
 		
 		<!-- Coded into .sld from HDM.mapcss -->
 		
 		
-        <!-- A FAIRE
+        <!-- TO DO
             canvas {
             fill-color: #f7f6f1;
             }
@@ -833,7 +833,7 @@
 				<!-- way[highway=pedestrian]!:closed -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>   	<!-- way[highway=pedestrian]!:closed PROBLEME -->
+                        <ogc:PropertyIsEqualTo>   	<!-- way[highway=pedestrian]!:closed TO DO -->
                             <ogc:PropertyName>highway</ogc:PropertyName>
                             <ogc:Literal>pedestrian</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
@@ -858,7 +858,7 @@
 				<!-- area[highway=pedestrian]:closed -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo> <!-- area[highway=pedestrian]:closed PROBLEME-->
+                        <ogc:PropertyIsEqualTo> <!-- area[highway=pedestrian]:closed TO DO-->
                             <ogc:PropertyName>highway</ogc:PropertyName>
                             <ogc:Literal>pedestrian</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
@@ -916,7 +916,7 @@
 
 				<!-- way[highway=footway][bicycle=yes]::bike -->
                 <se:Rule>
-                    <ogc:Filter> <!-- way[highway=footway][bicycle=yes]::bike PROBLEME-->
+                    <ogc:Filter> <!-- way[highway=footway][bicycle=yes]::bike TO DO-->
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>highway</ogc:PropertyName>
                             <ogc:Literal>footway</ogc:Literal>
@@ -1008,7 +1008,7 @@
 
 				<!-- way[is_prop_set("prop_path")] -->
                 <!--
-                <se:Rule>  way[is_prop_set("prop_path")] PROBLEME
+                <se:Rule>  way[is_prop_set("prop_path")] TO DO
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>is_prop_set("prop_path")</ogc:PropertyName>
@@ -1104,7 +1104,7 @@
                 </se:Rule>
         
 				<!-- way[railway=rail]::stroke-dasharray --> 
-                <se:Rule>  <!-- way[railway=rail]::stroke-dasharray PROBLEME --> 
+                <se:Rule>  <!-- way[railway=rail]::stroke-dasharray TO DO --> 
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1139,7 +1139,7 @@
                 </se:Rule>
 				
 				<!-- way[construction=rail]::inner -->
-                <se:Rule> <!-- way[construction=rail]::inner PROBLEME-->
+                <se:Rule> <!-- way[construction=rail]::inner TO DO-->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
@@ -1188,7 +1188,7 @@
                 </se:Rule>
         
                 <!-- way[railway=subway]::stroke-dasharray -->
-				<se:Rule> <!-- way[railway=subway]::stroke-dasharray PROBLEME-->
+				<se:Rule> <!-- way[railway=subway]::stroke-dasharray TO DO-->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1222,7 +1222,7 @@
                 </se:Rule>
         
 				<!-- way[construction=subway]::stroke-dasharray  -->
-                <se:Rule>  <!-- way[construction=subway]::stroke-dasharray PROBLEME -->
+                <se:Rule>  <!-- way[construction=subway]::stroke-dasharray TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
@@ -1273,7 +1273,7 @@
                 </se:Rule>
         
                 <!-- way[railway=disused]::stroke-dasharray -->
-				<se:Rule>  <!-- way[railway=disused]::stroke-dasharray PROBLEME -->
+				<se:Rule>  <!-- way[railway=disused]::stroke-dasharray TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1290,7 +1290,7 @@
                 </se:Rule>
         
                 <!-- way[railway=abandoned]::stroke-dasharray -->
-				<se:Rule>  <!-- way[railway=abandoned]::stroke-dasharray PROBLEME -->
+				<se:Rule>  <!-- way[railway=abandoned]::stroke-dasharray TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1365,7 +1365,7 @@
                 </se:Rule>
         
                 <!-- way[railway=light_rail]::stroke-dasharray -->
-				<se:Rule>  <!-- way[railway=light_rail]::stroke-dasharray PROBLEME -->
+				<se:Rule>  <!-- way[railway=light_rail]::stroke-dasharray TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>railway</ogc:PropertyName>
@@ -1399,7 +1399,7 @@
                 </se:Rule>
         
                 <!-- way[construction=light_rail]::stroke-dasharray -->
-				<se:Rule>  <!-- way[construction=light_rail]::stroke-dasharray PROBLEME -->
+				<se:Rule>  <!-- way[construction=light_rail]::stroke-dasharray TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>construction</ogc:PropertyName>
@@ -1449,13 +1449,14 @@
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:TextSymbolizer>  <!-- CSS: text: auto; non passe en se--> 
+                    <se:TextSymbolizer>  <!-- CSS: text: auto; TO DO--> 
                             <se:Fill>
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
                                 <se:SvgParameter name="Font">9</se:SvgParameter>  
                             </se:Font>
+							<!-- TO DO -->
                             <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement>   CSS :  text-position: line;
@@ -1491,6 +1492,7 @@
                             <se:Font>
                                 <se:SvgParameter name="Font">9</se:SvgParameter>  
                             </se:Font>
+							<!-- TO DO -->
                             <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement> 
@@ -1526,6 +1528,7 @@
                             <se:Font>
                                 <se:SvgParameter name="Font">9</se:SvgParameter>  
                             </se:Font>
+							<!-- TO DO -->
                             <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement> 
@@ -1558,6 +1561,7 @@
                             <se:Fill>
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
+							<!-- TO DO -->
                             <!--
                             <se:LabelPlacement>
                                 <se:LinePlacement> </se:LinePlacement> 
@@ -1615,7 +1619,7 @@
             <!-- Aeroways -->
     
                 <!-- way[aeroway=aerodrome]:closed -->
-				<se:Rule>  <!-- way[aeroway=aerodrome]:closed PROBLEME -->
+				<se:Rule>  <!-- way[aeroway=aerodrome]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1637,7 +1641,7 @@
                 </se:Rule>
         
                 <!-- way|z-15[aeroway=aerodrome]:closed -->
-				<se:Rule>  <!-- way|z-15[aeroway=aerodrome]:closed PROBLEME -->
+				<se:Rule>  <!-- way|z-15[aeroway=aerodrome]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1653,7 +1657,7 @@
                 </se:Rule>
         
                 <!-- way[aeroway=taxiway]!:closed -->
-				<se:Rule>  <!-- way[aeroway=taxiway]!:closed PROBLEME -->
+				<se:Rule>  <!-- way[aeroway=taxiway]!:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1675,7 +1679,7 @@
                 </se:Rule>
         
                 <!-- area[aeroway=taxiway]:closed -->
-				<se:Rule>  <!-- area[aeroway=taxiway]:closed PROBLEME -->
+				<se:Rule>  <!-- area[aeroway=taxiway]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1694,7 +1698,7 @@
                 </se:Rule>
         
                 <!-- way|z17-[aeroway=runway]!:closed -->
-				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed PROBLEME -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1716,7 +1720,7 @@
                 </se:Rule>
         
                 <!-- way|z17-[aeroway=runway]!:closed::aa -->
-				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::aa PROBLEME -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::aa TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1733,7 +1737,7 @@
                 </se:Rule>
         
                 <!-- way|z17-[aeroway=runway]!:closed::bb -->
-				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::bb PROBLEME -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::bb TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1749,7 +1753,7 @@
                 </se:Rule>
         
                 <!-- way|z17-[aeroway=runway]!:closed::cc -->
-				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::cc PROBLEME -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::cc TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1766,7 +1770,7 @@
                 </se:Rule>
         
                 <!-- way|z17-[aeroway=runway]!:closed::dd -->
-				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::dd PROBLEME -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::dd TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1782,7 +1786,7 @@
                 </se:Rule>
         
                 <!-- way|z17-[aeroway=runway]!:closed::ee -->
-				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::ee PROBLEME -->
+				<se:Rule>  <!-- way|z17-[aeroway=runway]!:closed::ee TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1799,7 +1803,7 @@
                 </se:Rule>
         
                 <!-- way|z15-16[aeroway=runway]!:closed -->
-				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed PROBLEME -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1815,7 +1819,7 @@
                 </se:Rule>
         
                 <!-- way|z15-16[aeroway=runway]!:closed::aa -->
-				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::aa PROBLEME -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::aa TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1832,7 +1836,7 @@
                 </se:Rule>
         
                 <!-- way|z15-16[aeroway=runway]!:closed::bb -->
-				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::bb PROBLEME -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::bb TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1848,7 +1852,7 @@
                 </se:Rule>
         
                 <!-- way|z15-16[aeroway=runway]!:closed::cc -->
-				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::cc PROBLEME -->
+				<se:Rule>  <!-- way|z15-16[aeroway=runway]!:closed::cc TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1865,7 +1869,7 @@
                 </se:Rule>
         
                 <!-- way|z-14[aeroway=runway]!:closed -->
-				<se:Rule>  <!-- way|z-14[aeroway=runway]!:closed PROBLEME -->
+				<se:Rule>  <!-- way|z-14[aeroway=runway]!:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1881,7 +1885,7 @@
                 </se:Rule>
         
                 <!-- area[aeroway=runway]:closed -->
-				<se:Rule>  <!-- area[aeroway=runway]:closed PROBLEME -->
+				<se:Rule>  <!-- area[aeroway=runway]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -1900,7 +1904,7 @@
                 </se:Rule>
         
                 <!-- area[aeroway=apron]:closed -->
-				<se:Rule>  <!-- area[aeroway=apron]:closed PROBLEME -->
+				<se:Rule>  <!-- area[aeroway=apron]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>aeroway</ogc:PropertyName>
@@ -2020,7 +2024,7 @@
                 </se:Rule>
         
                 <!-- area[power=station]:closed -->
-				<se:Rule>  <!-- area[power=station]:closed PROBLEME -->
+				<se:Rule>  <!-- area[power=station]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
@@ -2039,7 +2043,7 @@
                 </se:Rule>
         
                 <!-- area[power=generator]:closed -->
-				<se:Rule>  <!-- area[power=generator]:closed PROBLEME -->
+				<se:Rule>  <!-- area[power=generator]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
@@ -2085,7 +2089,7 @@
                 </se:Rule>
         
                 <!-- area[leisure=sports_centre]:closed  -->
-				<se:Rule>  <!-- area[leisure=sports_centre]:closed PROBLEME -->
+				<se:Rule>  <!-- area[leisure=sports_centre]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -2106,7 +2110,7 @@
             <!-- Physical decoration -->
     
                 <!-- way[bridge=yes]::bridge1 -->
-				<se:Rule>  <!-- way[bridge=yes]::bridge1 PROBLEME -->
+				<se:Rule>  <!-- way[bridge=yes]::bridge1 TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2122,7 +2126,7 @@
                 </se:Rule>
         
                 <!-- way[bridge=viaduct]::bridge1 -->
-				<se:Rule>  <!-- way[bridge=viaduct]::bridge1 PROBLEME -->
+				<se:Rule>  <!-- way[bridge=viaduct]::bridge1 TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2137,7 +2141,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
         
-                <!-- way[bridge=suspension]::bridge1 PROBLEME -->
+                <!-- way[bridge=suspension]::bridge1 TO DO -->
 				<se:Rule>  <!-- way[bridge=suspension]::bridge1 -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -2154,7 +2158,7 @@
                 </se:Rule>
         
                 <!-- way[bridge=yes]::bridge2 -->
-				<se:Rule>  <!-- way[bridge=yes]::bridge2 PROBLEME -->
+				<se:Rule>  <!-- way[bridge=yes]::bridge2 TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2170,7 +2174,7 @@
                 </se:Rule>
         
                 <!-- way[bridge=viaduct]::bridge2 -->
-				<se:Rule>  <!-- way[bridge=viaduct]::bridge2 PROBLEME -->
+				<se:Rule>  <!-- way[bridge=viaduct]::bridge2 TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2186,7 +2190,7 @@
                 </se:Rule>
         
                 <!-- way[bridge=suspension]::bridge2 -->
-				<se:Rule>  <!-- way[bridge=suspension]::bridge2 PROBLEME -->
+				<se:Rule>  <!-- way[bridge=suspension]::bridge2 TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>bridge</ogc:PropertyName>
@@ -2203,7 +2207,7 @@
                 
 				<!-- way[tunnel=yes][!waterway]::bridge1 -->
 				<!--
-                <se:Rule>   way[tunnel=yes][!waterway]::bridge1  PROBLEME
+                <se:Rule>   way[tunnel=yes][!waterway]::bridge1  TO DO
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -2224,7 +2228,7 @@
 				
 				<!-- way[tunnel=yes][!waterway]::bridge2 -->
 				<!--
-                <se:Rule>   way[tunnel=yes][!waterway]::bridge2 PROBLEME
+                <se:Rule>   way[tunnel=yes][!waterway]::bridge2 TO DO
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -2248,7 +2252,7 @@
  * core_pois.css
  ****************/
  -->
-				<!-- PROBLEME    => Pas du tout passe en sld !!
+				<!-- TO DO entirely
 				node {
 					text-anchor-horizontal: center;
 					text-anchor-vertical: below;
@@ -3051,7 +3055,7 @@
 				<!-- More Amenities -->
 
 				<!-- node|z19-[amenity=bench] -->
-				<se:Rule>  <!-- node|z19-[amenity=bench] PROBLEME -->
+				<se:Rule>  <!-- node|z19-[amenity=bench] TO DO -->
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -4763,7 +4767,7 @@
 				</se:Rule>
 				
 				
-				<!-- Misc -->
+				<!-- Miscellaneous -->
 				
 				<!-- node[leisure=playground] -->
 				<se:Rule>
@@ -4893,7 +4897,7 @@
 				</se:Rule>
 				
 				<!-- node|z19-[power=pole] -->
-				<se:Rule> <!-- node|z19-[power=pole] PROBLEME -->
+				<se:Rule> <!-- node|z19-[power=pole] TO DO -->
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>power</ogc:PropertyName>
@@ -4949,7 +4953,7 @@
 				
 				<!-- Addressing -->
 				
-				<!-- PROBLEME
+				<!-- TO DO
 node|z-16[addr:housenumber] {
    text: eval("");  
 }
@@ -4985,7 +4989,7 @@ way[addr:interpolation] {
 				<!-- Landuse -->
 				
                 <!-- area[natural]:closed -->
-                <se:Rule>  <!-- area[natural]:closed PROBLEME -->
+                <se:Rule>  <!-- area[natural]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -5005,7 +5009,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[natural=beach]:closed -->
-                <se:Rule>  <!-- area[natural=beach]:closed PROBLEME -->
+                <se:Rule>  <!-- area[natural=beach]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -5042,7 +5046,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse]:closed -->				
-				 <se:Rule> <!-- area[landuse]:closed PROBLEME -->	
+				 <se:Rule> <!-- area[landuse]:closed TO DO -->	
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5063,7 +5067,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=residential]:closed -->
-                <se:Rule> <!-- area[landuse=residential]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=residential]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5083,7 +5087,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=retail]:closed -->
-                <se:Rule> <!-- area[landuse=retail]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=retail]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5103,7 +5107,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=commercial]:closed -->
-                <se:Rule> <!-- area[landuse=commercial]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=commercial]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5123,7 +5127,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=military]:closed -->
-                <se:Rule> <!-- area[landuse=military]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=military]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5144,7 +5148,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[leisure]:closed -->
-                <se:Rule> <!-- area[leisure]:closed PROBLEME -->
+                <se:Rule> <!-- area[leisure]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -5166,7 +5170,7 @@ way[addr:interpolation] {
 
 
                 <!-- area[tourism]:closed -->
-                <se:Rule> <!-- area[tourism]:closed PROBLEME -->
+                <se:Rule> <!-- area[tourism]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
@@ -5187,7 +5191,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[historic]:closed -->
-                <se:Rule> <!-- area[historic]:closed PROBLEME -->
+                <se:Rule> <!-- area[historic]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>historic</ogc:PropertyName>
@@ -5208,7 +5212,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[ruins]:closed  -->
-                <se:Rule> <!-- area[ruins]:closed PROBLEME  -->
+                <se:Rule> <!-- area[ruins]:closed TO DO  -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ruins</ogc:PropertyName>
@@ -5229,7 +5233,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[military]:closed -->
-                <se:Rule> <!-- area[military]:closed PROBLEME -->
+                <se:Rule> <!-- area[military]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>military</ogc:PropertyName>
@@ -5250,7 +5254,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[building]:closed -->
-                <se:Rule> <!-- area[building]:closed PROBLEME -->
+                <se:Rule> <!-- area[building]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>building</ogc:PropertyName>
@@ -5271,7 +5275,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!--area[waterway][waterway!=dam]:closed-->
-                <se:Rule> <!--area[waterway][waterway!=dam]:closed PROBLEME -->
+                <se:Rule> <!--area[waterway][waterway!=dam]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
@@ -5296,7 +5300,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!--area[natural=water]:closed-->
-                <se:Rule> <!--area[natural=water]:closed PROBLEME -->
+                <se:Rule> <!--area[natural=water]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -5338,7 +5342,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[man_made]:closed -->
-                <se:Rule> <!-- area[man_made]:closed PROBLEME -->
+                <se:Rule> <!-- area[man_made]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
@@ -5359,7 +5363,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[man_made=reservoir_covered]:closed -->
-                <se:Rule> <!-- area[man_made=reservoir_covered]:closed PROBLEME -->
+                <se:Rule> <!-- area[man_made=reservoir_covered]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
@@ -5382,7 +5386,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=reservoir]:closed -->
-                <se:Rule> <!-- area[landuse=reservoir]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=reservoir]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5403,7 +5407,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=forest]:closed -->
-                <se:Rule> <!-- area[landuse=forest]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=forest]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5424,7 +5428,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[natural=wood]:closed -->
-                <se:Rule> <!-- area[natural=wood]:closed PROBLEME -->
+                <se:Rule> <!-- area[natural=wood]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
@@ -5445,7 +5449,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[leisure=park]:closed -->
-                <se:Rule> <!-- area[leisure=park]:closed PROBLEME -->
+                <se:Rule> <!-- area[leisure=park]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -5466,7 +5470,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[leisure=garden]:closed -->
-                <se:Rule>  <!-- area[leisure=garden]:closed PROBLEME -->
+                <se:Rule>  <!-- area[leisure=garden]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -5487,7 +5491,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[leisure=pitch]:closed -->
-                <se:Rule> <!-- area[leisure=pitch]:closed PROBLEME -->
+                <se:Rule> <!-- area[leisure=pitch]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -5506,10 +5510,10 @@ way[addr:interpolation] {
                         </se:Stroke>
                     </se:PolygonSymbolizer>		
                 </se:Rule>		  	
-                <!-- Pas pris en compte : " z-index: 6;" -->
+                <!-- Not taken into account : " z-index: 6;" -->
 
                 <!-- area[landuse=recreation_ground]:closed -->
-                <se:Rule> <!-- area[landuse=recreation_ground]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=recreation_ground]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5528,7 +5532,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!--area[amenity]:closed -->
-                <se:Rule> <!--area[amenity]:closed PROBLEME -->
+                <se:Rule> <!--area[amenity]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -5548,7 +5552,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[shop]:closed -->
-                <se:Rule> <!-- area[shop]:closed PROBLEME -->
+                <se:Rule> <!-- area[shop]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
@@ -5568,7 +5572,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[amenity=parking]:closed -->
-                <se:Rule> <!-- area[amenity=parking]:closed PROBLEME -->
+                <se:Rule> <!-- area[amenity=parking]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -5588,7 +5592,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[amenity=school]:closed -->
-                <se:Rule> <!-- area[amenity=school]:closed PROBLEME -->
+                <se:Rule> <!-- area[amenity=school]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
@@ -5608,7 +5612,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[public_transport=pay_scale_area]:closed -->
-                <se:Rule> <!-- area[public_transport=pay_scale_area]:closed PROBLEME -->
+                <se:Rule> <!-- area[public_transport=pay_scale_area]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>public_transport</ogc:PropertyName>
@@ -5647,7 +5651,7 @@ way[addr:interpolation] {
 
 
                 <!-- way[man_made=pier][floating=yes] -->
-                <!-- PROBLEME : ligne <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter> marquee fausse sous QGIS -->
+                <!-- TO DO <se:SvgParameter name="stroke-dasharray">4,2</SvgParameter>  -->
 				<!--
 				<se:Rule>
                     <ogc:Filter>
@@ -5670,7 +5674,7 @@ way[addr:interpolation] {
 				-->
 
                 <!-- area[leisure=marina]:closed -->
-                <se:Rule> <!-- area[leisure=marina]:closed PROBLEME -->
+                <se:Rule> <!-- area[leisure=marina]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -5708,7 +5712,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[leisure=golf_course]:closed -->
-                <se:Rule> <!-- area[leisure=golf_course]:closed PROBLEME -->
+                <se:Rule> <!-- area[leisure=golf_course]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
@@ -5741,7 +5745,7 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#000066</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
 							-->
                         </se:Stroke>
@@ -5761,7 +5765,7 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#225500</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="stroke-dasharray">24,4,4,4</SvgParameter>
 							-->
                         </se:Stroke>
@@ -5781,7 +5785,7 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#447744</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="stroke-dasharray">12,4,4,4</SvgParameter>
 							-->
                         </se:Stroke>
@@ -5801,7 +5805,7 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">purple</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
 							-->
                         </se:Stroke>
@@ -5824,7 +5828,7 @@ way[addr:interpolation] {
                         <se:Stroke>
 							<se:SvgParameter name="fill-opacity">0.8</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="stroke-dasharray">24,4</SvgParameter>
 							-->
                         </se:Stroke>
@@ -5832,7 +5836,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
                 <!-- area[landuse=cemetery]:closed -->
-                <se:Rule> <!-- area[landuse=cemetery]:closed PROBLEME -->
+                <se:Rule> <!-- area[landuse=cemetery]:closed TO DO -->
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
@@ -5855,7 +5859,7 @@ way[addr:interpolation] {
 				
 				<!-- Route relations -->
 				
-				<!-- relation[type=route] > way::route PROBLEME sur la traduction exacte du mot "relation" -->
+				<!-- relation[type=route] > way::route TO DO sur la traduction exacte du mot "relation" -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -5868,14 +5872,14 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#777</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
 				
-				<!-- relation[type=route][route=bicycle][network=ncn] > way::route PROBLEME -->
+				<!-- relation[type=route][route=bicycle][network=ncn] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -5896,14 +5900,14 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">red</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
 				
-				<!-- relation[type=route][route=bicycle][network=lcn] > way::route PROBLEME -->
+				<!-- relation[type=route][route=bicycle][network=lcn] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -5924,14 +5928,14 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">blue</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
 				
-				<!-- relation[type=route][route=mtb] > way::route PROBLEME -->
+				<!-- relation[type=route][route=mtb] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -5948,14 +5952,14 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">brown</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.3</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
                         </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
 				
-				<!-- relation[type=route][route=foot] > way::route PROBLEME -->
+				<!-- relation[type=route][route=foot] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -5972,7 +5976,7 @@ way[addr:interpolation] {
                             <se:SvgParameter name="fill-color">#80ff80</se:SvgParameter>  
 							<se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                            <!--
+                            <!-- TO DO
 							<se:SvgParameter name="linecap">none</SvgParameter>
 							-->
                         </se:Stroke>
@@ -5980,7 +5984,7 @@ way[addr:interpolation] {
                 </se:Rule>
 
 
-<!-- PAS FAIT PROBLEME				
+<!-- TO DO				
 
 /*@import("stylesheets/core_ways.css");*/
 /*@import("stylesheets/core_pois.css");*/
