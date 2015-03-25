@@ -888,13 +888,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="color">#555555</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#ddddee</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>  
-                            </se:Stroke>
+                            <se:SvgParameter name="fill">#ddddee</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>  
                         </se:Fill>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#555555</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
+						</se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
 
@@ -1703,13 +1703,13 @@
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
-                        <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="color">#bb99bb</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#ccaacc</se:SvgParameter>  
-                            </se:Stroke>
-                        </se:Fill>
+						<se:Fill>
+							<se:SvgParameter name="fill">#ccaacc</se:SvgParameter>
+						</se:Fill>
+						<se:Stroke>
+                            <se:SvgParameter name="stroke">#bb99bb</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>   
+                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
@@ -1910,12 +1910,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="color">black</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#775577</se:SvgParameter>  
-                            </se:Stroke>
-                        </se:Fill>
+							<se:SvgParameter name="fill">#775577</se:SvgParameter>  
+						</se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">black</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>      
+                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
@@ -1929,13 +1929,13 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="color">#cc66cc</se:SvgParameter>  
-                                <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#ddaadd</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>  
-                            </se:Stroke>
-                        </se:Fill>
+							<se:SvgParameter name="fill">#ddaadd</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>  
+						</se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#cc66cc</se:SvgParameter>  
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
+                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
@@ -2048,12 +2048,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="fill-color">#666666</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>  
-                                <se:SvgParameter name="small_area">true</se:SvgParameter>  
-                            </se:Stroke>
-                        </se:Fill>
+							<se:SvgParameter name="fill">#666666</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter> 
+						</se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>  
+                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
@@ -2067,14 +2067,14 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="color">black</se:SvgParameter>  
+							<se:SvgParameter name="fill">#444444</se:SvgParameter>  
+                            <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>  
+						</se:Fill>
+                        <se:Stroke>
+                                <se:SvgParameter name="stroke">black</se:SvgParameter>  
                                 <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#444444</se:SvgParameter>  
-                                <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>  
                                 <se:SvgParameter name="small_area">true</se:SvgParameter>  
-                            </se:Stroke>
-                        </se:Fill>
+                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
@@ -2113,12 +2113,12 @@
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:Stroke>
-                                <se:SvgParameter name="color">#66ddcc</se:SvgParameter>  
-                                <se:SvgParameter name="fill-color">#66ddcc</se:SvgParameter>  
-                                <se:SvgParameter name="small_area">true</se:SvgParameter>  
-                            </se:Stroke>
-                        </se:Fill>
+							<se:SvgParameter name="fill">#66ddcc</se:SvgParameter>
+						</se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#66ddcc</se:SvgParameter>  
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>  
+                        </se:Stroke>
                     </se:PolygonSymbolizer>
                 </se:Rule>
         
