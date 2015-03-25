@@ -705,6 +705,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>surface</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -1035,6 +1036,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>is_prop_set("prop_path")</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:TextSymbolizer>
@@ -1599,6 +1601,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tunnel</ogc:PropertyName>
@@ -1617,6 +1620,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>intermittent</ogc:PropertyName>
@@ -1945,6 +1949,7 @@
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>barrier</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:LineSymbolizer>
@@ -3482,6 +3487,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>craft</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -3501,6 +3507,7 @@
 				    <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
@@ -5006,6 +5013,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>natural</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5062,6 +5070,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>landuse</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5163,6 +5172,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>leisure</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5184,6 +5194,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>tourism</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5204,6 +5215,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>historic</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5224,6 +5236,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>ruins</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5244,6 +5257,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>military</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5285,6 +5299,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsNotEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
@@ -5351,6 +5366,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>man_made</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5540,6 +5556,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>amenity</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                 	<se:PolygonSymbolizer>
@@ -5559,6 +5576,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>shop</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
@@ -5739,6 +5757,7 @@ way[addr:interpolation] {
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>boundary</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 					<se:LineSymbolizer>
@@ -5822,6 +5841,7 @@ way[addr:interpolation] {
                         </ogc:PropertyIsEqualTo>
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>waterway</ogc:PropertyName>
+							<ogc:Literal>yes</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
 					<se:LineSymbolizer>
