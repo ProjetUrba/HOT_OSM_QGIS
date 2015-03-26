@@ -644,11 +644,6 @@
                             <se:SvgParameter name="stroke">#FFFFFF</se:SvgParameter> 
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
                 </se:Rule>
     
 				<!-- way[highway=living_street] -->
