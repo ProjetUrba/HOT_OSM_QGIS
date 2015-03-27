@@ -88,7 +88,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            <se:Fill>
+                                <se:SvgParameter name="font">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -127,7 +129,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill> 
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -166,7 +170,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>  
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>  
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -205,7 +211,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill> 
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -244,7 +252,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -283,7 +293,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill> 
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -322,7 +334,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -361,7 +375,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -400,7 +416,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -439,7 +457,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill> 
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -478,7 +498,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter> 
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill> 
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -517,7 +539,9 @@
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
-                            <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            <se:Fill>
+                                <se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+                            </se:Fill>
                         </se:Halo>
                     </se:TextSymbolizer>
                 </se:Rule>
@@ -577,14 +601,16 @@
 				<!-- way[highway=service][service=parking_aisle] -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:Literal>service</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>service</ogc:PropertyName>
-                            <ogc:Literal>parking_aisle</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>service</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>service</ogc:PropertyName>
+                                <ogc:Literal>parking_aisle</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -607,14 +633,16 @@
 				<!-- way[highway=service][service=alley] -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:Literal>service</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>service</ogc:PropertyName>
-                            <ogc:Literal>alley</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>service</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>service</ogc:PropertyName>
+                                <ogc:Literal>alley</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -912,14 +940,16 @@
 				<!-- way[highway=footway][bicycle=yes]::bike -->
                 <se:Rule>
                     <ogc:Filter> <!-- way[highway=footway][bicycle=yes]::bike TO DO-->
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>highway</ogc:PropertyName>
-                            <ogc:Literal>footway</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>bicycle</ogc:PropertyName>
-                            <ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>highway</ogc:PropertyName>
+                                <ogc:Literal>footway</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>bicycle</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -1449,7 +1479,7 @@
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="Font">9</se:SvgParameter>  
+                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
                             </se:Font>
 							<!-- TO DO -->
                             <!--
@@ -1458,7 +1488,7 @@
                                 <se:PointPlacement>
                                     <se:Displacement>  
                                         <se:DisplacementX>7</se:DisplacementX>
-                                        <se:DisplacementY>0<se:DisplacementY>
+                                        <se:DisplacementY>0</se:DisplacementY>
                                     </se:Displacement>
                                 </se:PointPlacement>  
                             </se:LabelPlacement>
@@ -1485,7 +1515,7 @@
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="Font">9</se:SvgParameter>  
+                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
                             </se:Font>
 							<!-- TO DO -->
                             <!--
@@ -1521,7 +1551,7 @@
                                 <se:SvgParameter name="fill">#3434ff</se:SvgParameter> 
                             </se:Fill>
                             <se:Font>
-                                <se:SvgParameter name="Font">9</se:SvgParameter>  
+                                <se:SvgParameter name="font-size">9</se:SvgParameter>  
                             </se:Font>
 							<!-- TO DO -->
                             <!--
@@ -1574,14 +1604,16 @@
 				<!-- way[waterway][tunnel=yes] -->
                 <se:Rule>  
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>waterway</ogc:PropertyName>
-							<ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>tunnel</ogc:PropertyName>
-                            <ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>tunnel</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -1593,14 +1625,16 @@
 				<!-- way[waterway][intermittent=yes] -->   
                 <se:Rule>  
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>waterway</ogc:PropertyName>
-							<ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>intermittent</ogc:PropertyName>
-                            <ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>intermittent</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
                     <se:LineSymbolizer>
                         <se:Stroke>
@@ -5272,14 +5306,16 @@ way[addr:interpolation] {
                 <!--area[waterway][waterway!=dam]:closed-->
                 <se:Rule> <!--area[waterway][waterway!=dam]:closed TO DO -->
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>waterway</ogc:PropertyName>
-							<ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsNotEqualTo>
-                            <ogc:PropertyName>waterway</ogc:PropertyName>
-                            <ogc:Literal>dam</ogc:Literal>
-                        </ogc:PropertyIsNotEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>dam</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
                     <se:PolygonSymbolizer>
                         <se:Fill>
@@ -5314,8 +5350,35 @@ way[addr:interpolation] {
                         </se:Stroke>
                      </se:PolygonSymbolizer>		
                 </se:Rule>
+				
+				<!--area[waterway][waterway!=dam]:closed-->
+                <se:Rule> <!--area[waterway][waterway!=dam]:closed TO DO -->
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsNotEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>dam</ogc:Literal>
+                            </ogc:PropertyIsNotEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>    
+                        </se:Fill>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#3434ff</se:SvgParameter>   
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
+                            <se:SvgParameter name="small_area">true</se:SvgParameter>
+                        </se:Stroke>
+                     </se:PolygonSymbolizer>		
+                </se:Rule>
 
-                <!-- way[waterway=dam] -->
+                <!-- area[waterway=dam] -->
                 <se:Rule>
                     <ogc:Filter>
                         <ogc:PropertyIsEqualTo>
@@ -5323,17 +5386,17 @@ way[addr:interpolation] {
                             <ogc:Literal>dam</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:LineSymbolizer>
+					<se:PolygonSymbolizer>
                         <se:Fill>
-                            <se:SvgParameter name="fill">#3434ff</se:SvgParameter>  
-                            <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter>   
+                            <se:SvgParameter name="fill">#222222</se:SvgParameter>   
+                            <se:SvgParameter name="fill-opacity">0.1</se:SvgParameter>    
                         </se:Fill>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter> 
+                            <se:SvgParameter name="stroke">black</se:SvgParameter>   
                             <se:SvgParameter name="stroke-width">1</se:SvgParameter>  
                             <se:SvgParameter name="small_area">true</se:SvgParameter>
                         </se:Stroke>
-                    </se:LineSymbolizer>	
+                     </se:PolygonSymbolizer>	  
                 </se:Rule>
 
                 <!-- area[man_made]:closed -->
@@ -5810,14 +5873,16 @@ way[addr:interpolation] {
 				<!-- way[boundary=administrative][waterway] -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>boundary</ogc:PropertyName>
-                            <ogc:Literal>administrative</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>waterway</ogc:PropertyName>
-							<ogc:Literal>yes</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>boundary</ogc:PropertyName>
+                                <ogc:Literal>administrative</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>waterway</ogc:PropertyName>
+                                <ogc:Literal>yes</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
 					<se:LineSymbolizer>
                         <se:Stroke>
@@ -5877,18 +5942,20 @@ way[addr:interpolation] {
 				<!-- relation[type=route][route=bicycle][network=ncn] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>type</ogc:PropertyName>
-                            <ogc:Literal>route</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>route</ogc:PropertyName>
-                            <ogc:Literal>bicycle</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>network</ogc:PropertyName>
-                            <ogc:Literal>ncn</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>type</ogc:PropertyName>
+                                <ogc:Literal>route</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>route</ogc:PropertyName>
+                                <ogc:Literal>bicycle</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>network</ogc:PropertyName>
+                                <ogc:Literal>ncn</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
 					<se:LineSymbolizer>
                         <se:Stroke>
@@ -5905,18 +5972,20 @@ way[addr:interpolation] {
 				<!-- relation[type=route][route=bicycle][network=lcn] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>type</ogc:PropertyName>
-                            <ogc:Literal>route</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>route</ogc:PropertyName>
-                            <ogc:Literal>bicycle</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>network</ogc:PropertyName>
-                            <ogc:Literal>lcn</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>type</ogc:PropertyName>
+                                <ogc:Literal>route</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>route</ogc:PropertyName>
+                                <ogc:Literal>bicycle</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>network</ogc:PropertyName>
+                                <ogc:Literal>lcn</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
 					<se:LineSymbolizer>
                         <se:Stroke>
@@ -5933,14 +6002,16 @@ way[addr:interpolation] {
 				<!-- relation[type=route][route=mtb] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>type</ogc:PropertyName>
-                            <ogc:Literal>route</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>route</ogc:PropertyName>
-                            <ogc:Literal>mtb</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>type</ogc:PropertyName>
+                                <ogc:Literal>route</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>route</ogc:PropertyName>
+                                <ogc:Literal>mtb</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
 					<se:LineSymbolizer>
                         <se:Stroke>
@@ -5957,14 +6028,16 @@ way[addr:interpolation] {
 				<!-- relation[type=route][route=foot] > way::route TO DO -->
                 <se:Rule>
                     <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>type</ogc:PropertyName>
-                            <ogc:Literal>route</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>route</ogc:PropertyName>
-                            <ogc:Literal>foot</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>type</ogc:PropertyName>
+                                <ogc:Literal>route</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>route</ogc:PropertyName>
+                                <ogc:Literal>foot</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
                     </ogc:Filter>
 					<se:LineSymbolizer>
                         <se:Stroke>
@@ -6039,14 +6112,16 @@ area[eval(prop(small_area))]:closed {
 				<!-- node[man_made=tower]["tower:type"=communication] -->
 				<se:Rule>
 				    <ogc:Filter>
-                        <ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>man_made</ogc:PropertyName>
-                            <ogc:Literal>tower</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
-						<ogc:PropertyIsEqualTo>
-                            <ogc:PropertyName>tower:type</ogc:PropertyName>
-                            <ogc:Literal>communication</ogc:Literal>
-                        </ogc:PropertyIsEqualTo>
+				        <ogc:And>
+				            <ogc:PropertyIsEqualTo>
+				                <ogc:PropertyName>man_made</ogc:PropertyName>
+				                <ogc:Literal>tower</ogc:Literal>
+				            </ogc:PropertyIsEqualTo>
+				            <ogc:PropertyIsEqualTo>
+				                <ogc:PropertyName>tower:type</ogc:PropertyName>
+				                <ogc:Literal>communication</ogc:Literal>
+				            </ogc:PropertyIsEqualTo>
+				        </ogc:And>
                     </ogc:Filter>
 				    <se:PointSymbolizer>
 				        <se:Graphic>
