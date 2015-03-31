@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor version="1.1.0"
-	xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
-    xmlns="http://www.opengis.net/se"
+    xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns="http://www.opengis.net/sld"
     xmlns:ogc="http://www.opengis.net/ogc"
     xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
     <NamedLayer>
 		<se:Name>SLD 1.1.0 for OSM HOT</se:Name>
-        <se:Title>SLD 1.1.0 for OSM HOT</se:Title>
-		
-		<!-- Coded into .sld from HDM.mapcss -->
-		
-		
-        <!-- TO DO
+        
+        <!-- Coded into .sld from HDM.mapcss -->
+        
+        <UserStyle>
+
+            <se:FeatureTypeStyle>
+        
+
+                <!-- TO DO
             canvas {
             fill-color: #f7f6f1;
             }
@@ -44,16 +48,14 @@
         -->
 
 
-        <!--/****************
-           * core_ways.css
-           ****************/
-        -->
- 
-        <!-- Roads -->
 
-        <UserStyle>
-            <se:FeatureTypeStyle>
-        
+    <!--/****************
+       * core_ways.css
+       ****************/
+    -->
+ 
+             <!-- Roads -->
+
 				<!-- way[highway=trunk] -->
                 <se:Rule> 
                     <ogc:Filter>
@@ -84,7 +86,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
@@ -125,7 +131,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
@@ -166,7 +176,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>
@@ -207,7 +221,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>
@@ -248,7 +266,11 @@
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
@@ -289,7 +311,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
@@ -330,7 +356,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
@@ -371,7 +401,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
@@ -412,7 +446,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement> 
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
@@ -453,7 +491,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter> 
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement> 
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius> 
@@ -494,7 +536,11 @@
                             <se:SvgParameter name="font">#000000</se:SvgParameter>  
                         </se:Font>
                         <se:LabelPlacement>
-                            <se:LinePlacement> </se:LinePlacement>  
+                            <se:LinePlacement>
+								<se:IsAligned>
+									true
+								</se:IsAligned>
+							</se:LinePlacement> 
                         </se:LabelPlacement>
                         <se:Halo>
                             <se:Radius>2</se:Radius>  
@@ -2278,19 +2324,40 @@
 					font-size: 12; 
 					text-halo-radius: 1.9;
 				}
-
-				node[place] {
-					icon-image: "icons/place.png";
-					font-family: Open Sans;
-					text: auto;
-					text-halo-color: white;
-					text-halo-radius: 2;
-					font-size: 10;
-					font-weight: bold;
-					z-index: 20;
-				}
 				-->
-				
+
+				<!-- node[place] -->
+				<se:Rule>
+				    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>place</ogc:PropertyName>
+                            <ogc:Literal>true</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+				    <se:PointSymbolizer>
+				        <se:Graphic>
+                            <se:ExternalGraphic>
+                                <se:OnlineResource xlink:type="simple" xlink:href="./icons/place.png" />
+                                <se:Format>image/png</se:Format>
+                            </se:ExternalGraphic>
+                        </se:Graphic>
+				    </se:PointSymbolizer>
+					<se:TextSymbolizer>
+						<se:Font>
+							<se:SvgParameter name="font-color">#000000</se:SvgParameter>
+                            <se:SvgParameter name="font-size">10</se:SvgParameter>  
+							<se:SvgParameter name="font-family">Open Sans</se:SvgParameter>  
+							<se:SvgParameter name="font-weight">bold</se:SvgParameter>  
+						</se:Font>
+						<se:Halo>
+                            <se:Radius>2</se:Radius> 
+                            <se:Fill>
+                                <se:SvgParameter name="font">white</se:SvgParameter>
+                            </se:Fill>
+                        </se:Halo>
+					</se:TextSymbolizer>
+				</se:Rule>
+
 				<!-- node[amenity=telephone] -->
 				<se:Rule>
 				    <ogc:Filter>
